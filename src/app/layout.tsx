@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-black text-white">
+      <body className="bg-white text-black">
         {/* <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?
