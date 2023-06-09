@@ -51,6 +51,12 @@ font-family: 'Manrope';
     font-style: normal;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+
 /* responsive classes */
 .main-container {
   @apply w-full mx-auto px-2;
