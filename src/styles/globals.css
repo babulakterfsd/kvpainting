@@ -3,23 +3,52 @@
 @tailwind utilities;
 
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter&family=Poppins&display=swap');
+/* 
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'druk_wide_webmedium';
+font-family: 'modular14';
+font-family: 'satoshi';
+font-family: 'Trade Gothic LT Std';
+font-family: 'Manrope';
+*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.cdnfonts.com/css/trade-gothic-lt-std');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 
 @font-face {
-  font-family: 'adieuregular';
-  src: url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.eot');
-  src: url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.eot?#iefix')
-      format('embedded-opentype'),
-    url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.woff2')
-      format('woff2'),
-    url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.woff')
-      format('woff'),
-    url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.ttf')
-      format('truetype'),
-    url('../../public/assets/fonts/adieu-font/adieu-regular-webfont.svg#adieuregular')
-      format('svg');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'druk_wide_webmedium';
+    src: url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.eot');
+    src: url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.woff2') format('woff2'),
+         url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.woff') format('woff'),
+         url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.ttf') format('truetype'),
+         url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.svg#druk_wide_webmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'modular14';
+    src: url('../../public/assets/fonts/modular/modular-14-webfont.eot');
+    src: url('../../public/assets/fonts/modular/modular-14-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../public/assets/fonts/modular/modular-14-webfont.woff2') format('woff2'),
+         url('../../public/assets/fonts/modular/modular-14-webfont.woff') format('woff'),
+         url('../../public/assets/fonts/modular/modular-14-webfont.ttf') format('truetype'),
+         url('../../public/assets/fonts/modular/modular-14-webfont.svg#modular14') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'satoshi';
+    src: url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.eot');
+    src: url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.woff2') format('woff2'),
+         url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.woff') format('woff'),
+         url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.ttf') format('truetype'),
+         url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.svg#falsenormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* responsive classes */
