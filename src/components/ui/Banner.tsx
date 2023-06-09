@@ -1,11 +1,11 @@
 import Styles from '../../styles/banner.module.css';
 const Banner = () => {
   return (
-    <div>
+    <section id="bannersection">
       <div className={`${Styles.bannerbg} sectioncontainer h-screen`}>
         <h1>hello</h1>
       </div>
-    </div>
+    </section>
   );
 };
 

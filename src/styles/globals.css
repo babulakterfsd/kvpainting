@@ -4,16 +4,28 @@
 
 /* fonts */
 /* 
-font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'plus_jakarta_sansregular';
 font-family: 'druk_wide_webmedium';
 font-family: 'modular14';
 font-family: 'satoshi';
 font-family: 'Trade Gothic LT Std';
 font-family: 'Manrope';
 */
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
 @import url('https://fonts.cdnfonts.com/css/trade-gothic-lt-std');
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+@font-face {
+  font-family: 'plus_jakarta_sansregular';
+  src: url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.eot');
+  src: url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.woff2') format('woff2'),
+       url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.woff') format('woff'),
+       url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.svg#plus_jakarta_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 @font-face {
     font-family: 'druk_wide_webmedium';
