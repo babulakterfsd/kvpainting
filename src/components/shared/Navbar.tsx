@@ -29,7 +29,7 @@ function Nav() {
     <div
       className={`${
         windowHeight
-          ? 'fixed top-0 bg-[rgba(255,255,255,1)] text-black shadow-2xl'
+          ? 'absolute top-0 bg-[rgba(255,255,255,1)] text-black shadow-2xl'
           : 'absolute top-0 text-white'
       } z-50 w-full`}
     >
@@ -174,7 +174,7 @@ function Nav() {
                 <li onClick={() => scrollTo('#contactsection')}>
                   <a
                     href="#contactsection"
-                    className="block text-sm font-[500] bg-[rgba(251,199,2,1)] px-5 py-2 text-black rounded-sm"
+                    className="block text-sm font-[500] bg-[rgba(251,199,2,1)] px-5 py-2 text-black"
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
                       letterSpacing: '2%',

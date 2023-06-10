@@ -30,7 +30,7 @@ const Banner = () => {
               id. A eget sit ipsum sagittis lacus
             </p>
             <div className="w-42">
-              <button className="bg-[rgba(251,199,2,1)] px-10 py-4 rounded-md text-black mt-3 font-bold">
+              <button className="bg-[rgba(251,199,2,1)] px-10 py-4  text-black mt-3 font-bold">
                 Get A Quote
               </button>
             </div>
