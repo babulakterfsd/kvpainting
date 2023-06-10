@@ -4,4 +4,19 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.gradientTitle {
+  background: linear-gradient(
+    to right,
+    rgba(27, 191, 220, 1) 1%,
+    rgba(251,199,2,1) 100%,
+    rgba(255,255,255,1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 900;
 }

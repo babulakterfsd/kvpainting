@@ -29,8 +29,8 @@ function Nav() {
     <div
       className={`${
         windowHeight
-          ? 'fixed top-0 bg-[rgba(255,255,255,.9)] text-black shadow-2xl'
-          : 'absolute top-3 text-white'
+          ? 'fixed top-0 bg-[rgba(255,255,255,1)] text-black shadow-2xl'
+          : 'absolute top-0 text-white'
       } z-50 w-full`}
     >
       <nav
@@ -39,7 +39,7 @@ function Nav() {
         } sm:px-6 md:px-12`}
       >
         <div className="grid grid-cols-12">
-          <div className="lg:col-start-3 lg:col-span-8 flex gap-x-36 items-center">
+          <div className="lg:col-start-3 lg:col-span-8 col-span-12 flex justify-between lg:gap-x-36 items-center">
             {windowHeight ? (
               <Image
                 src={Logo}
@@ -174,7 +174,7 @@ function Nav() {
                 <li onClick={() => scrollTo('#contactsection')}>
                   <a
                     href="#contactsection"
-                    className="block text-sm font-[500] bg-[rgba(251,199,2,1)] px-5 py-2 text-black"
+                    className="block text-sm font-[500] bg-[rgba(251,199,2,1)] px-5 py-2 text-black rounded-sm"
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
                       letterSpacing: '2%',
@@ -193,7 +193,7 @@ function Nav() {
           <ul
             className={`${
               isOpen ? 'block' : 'hidden'
-            } flex flex-col items-center mt-4 text-base sm:text-lg text-main-white`}
+            } flex flex-col items-center mt-4 text-base sm:text-lg bg-[#3a2828e6] text-white`}
           >
             {/* about */}
             <li
