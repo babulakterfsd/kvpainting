@@ -38,7 +38,6 @@ export default function Home() {
       <Companies />
       <Projects />
       <Contact />
-      <Footer />
       {/* scroll to top */}
       {windowHeight && (
         <button
@@ -49,6 +48,7 @@ export default function Home() {
           className="scrollToTop"
         />
       )}
+      <Footer />
     </div>
   );
 }

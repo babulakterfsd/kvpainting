@@ -94,7 +94,12 @@ function Nav() {
                 </svg>
               </button>
             </div>
-            <div className="hidden w-full lg:block md:w-auto" id="NavBarId">
+            <div
+              className={`hidden w-full lg:block md:w-auto ${
+                windowHeight ? 'lg:ml-24' : 'lg:ml-0'
+              }`}
+              id="NavBarId"
+            >
               <ul className="flex flex-col items-center mt-4 lg:flex-row lg:space-x-7 md:mt-0 text-base md:text-xl  md:font-medium text-main-white">
                 {/* about */}
                 <li

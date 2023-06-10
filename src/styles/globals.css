@@ -200,15 +200,15 @@ button.splide__arrow.splide__arrow--prev {
 
 @media screen and (max-width: 640px) {
   .splide {
-      padding: 20px !important;
+    padding: 20px !important;
   }
   button.splide__arrow.splide__arrow--next {
-      top: 17rem !important;
-      right: 7rem !important;
+    top: 17rem !important;
+    right: 7rem !important;
   }
   button.splide__arrow.splide__arrow--prev {
-      top: 17rem;
-      left: 7rem;
-      display: block !important;
+    top: 17rem;
+    left: 7rem;
+    display: block !important;
   }
 }
