@@ -38,7 +38,9 @@ const Banner = () => {
               <div className="h-32 w-52 p-4 bg-[#353535] border-gray-400 rounded-md flex justify-center flex-col">
                 <h2
                   className="text-5xl text-[#FBC702] font-[500]"
-                  style={{ fontFamily: 'druk_wide_webmedium' }}
+                  style={{
+                    fontFamily: 'druk_wide_webmedium',
+                  }}
                 >
                   8
                 </h2>
