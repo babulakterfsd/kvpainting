@@ -96,7 +96,7 @@ function Nav() {
             </div>
             <div
               className={`hidden w-full lg:block md:w-auto ${
-                windowHeight ? 'lg:ml-24' : 'lg:ml-0'
+                windowHeight ? 'lg:ml-16' : 'lg:ml-0'
               }`}
               id="NavBarId"
             >
@@ -112,7 +112,7 @@ function Nav() {
                     className={`${Styles.hanimation} block py-2 text-sm font-[400] `}
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
-                      letterSpacing: '2%',
+                      letterSpacing: '.1em',
                       lineHeight: '22px',
                     }}
                   >
@@ -126,7 +126,7 @@ function Nav() {
                     className={`${Styles.hanimation} block py-2 text-sm font-[400] `}
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
-                      letterSpacing: '2%',
+                      letterSpacing: '.1em',
                       lineHeight: '22px',
                     }}
                   >
@@ -140,7 +140,7 @@ function Nav() {
                     className={`${Styles.hanimation} block py-2 text-sm font-[400] `}
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
-                      letterSpacing: '2%',
+                      letterSpacing: '.1em',
                       lineHeight: '22px',
                     }}
                   >
@@ -154,7 +154,7 @@ function Nav() {
                     className={`${Styles.hanimation} block py-2 text-sm font-[400] `}
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
-                      letterSpacing: '2%',
+                      letterSpacing: '.1em',
                       lineHeight: '22px',
                     }}
                   >
@@ -168,7 +168,7 @@ function Nav() {
                     className={`${Styles.hanimation} block py-2 text-sm font-[400] `}
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
-                      letterSpacing: '2%',
+                      letterSpacing: '.1em',
                       lineHeight: '22px',
                     }}
                   >
@@ -182,7 +182,7 @@ function Nav() {
                     className="block text-sm font-[400] bg-[rgba(251,199,2,1)] px-5 py-2 text-black"
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
-                      letterSpacing: '2%',
+                      letterSpacing: '.1em',
                       lineHeight: '22px',
                     }}
                   >
@@ -213,7 +213,7 @@ function Nav() {
                 aria-current="page"
                 style={{
                   fontFamily: 'plus_jakarta_sansregular',
-                  letterSpacing: '2%',
+                  letterSpacing: '.1em',
                   lineHeight: '22px',
                 }}
               >
