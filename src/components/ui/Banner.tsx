@@ -35,7 +35,7 @@ const Banner = () => {
               </button>
             </div>
             <div className="lg:mt-32 flex gap-x-11">
-              <div className="h-32 w-52 p-4 bg-[#353535] border-gray-400 rounded-md flex justify-center flex-col">
+              <div className="h-32 w-52 p-4 bg-[#353535] border-gray-400 rounded-md flex justify-center flex-col gap-y-3">
                 <h2
                   className="text-5xl text-[#FBC702] font-[500]"
                   style={{
@@ -55,7 +55,7 @@ const Banner = () => {
                   Years of Experience
                 </h4>
               </div>
-              <div className="h-32 w-52 p-4 bg-[#353535] border-gray-400 rounded-md flex justify-center flex-col">
+              <div className="h-32 w-52 p-4 bg-[#353535] border-gray-400 rounded-md flex justify-center flex-col gap-y-3">
                 <h2
                   className="text-5xl text-[#FBC702] font-[500]"
                   style={{ fontFamily: 'druk_wide_webmedium' }}

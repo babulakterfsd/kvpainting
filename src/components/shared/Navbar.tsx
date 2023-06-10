@@ -116,7 +116,7 @@ function Nav() {
                       lineHeight: '22px',
                     }}
                   >
-                    About
+                    ABOUT
                   </a>
                 </li>
                 {/* services */}
@@ -130,7 +130,7 @@ function Nav() {
                       lineHeight: '22px',
                     }}
                   >
-                    Services
+                    SERVICES
                   </a>
                 </li>
                 {/* what we do  */}
@@ -144,7 +144,7 @@ function Nav() {
                       lineHeight: '22px',
                     }}
                   >
-                    Work
+                    WORK
                   </a>
                 </li>
                 {/* companies */}
@@ -158,7 +158,7 @@ function Nav() {
                       lineHeight: '22px',
                     }}
                   >
-                    Companies
+                    COMPANIES
                   </a>
                 </li>
                 {/* projects */}
@@ -172,21 +172,21 @@ function Nav() {
                       lineHeight: '22px',
                     }}
                   >
-                    Projects
+                    PROJECTS
                   </a>
                 </li>
                 {/* contact */}
                 <li onClick={() => scrollTo('#contactsection')}>
                   <a
                     href="#contactsection"
-                    className="block text-sm font-[500] bg-[rgba(251,199,2,1)] px-5 py-2 text-black"
+                    className="block text-sm font-[400] bg-[rgba(251,199,2,1)] px-5 py-2 text-black"
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
                       letterSpacing: '2%',
                       lineHeight: '22px',
                     }}
                   >
-                    Contact
+                    CONTACT
                   </a>
                 </li>
               </ul>
@@ -217,7 +217,7 @@ function Nav() {
                   lineHeight: '22px',
                 }}
               >
-                About
+                ABOUT
               </a>
             </li>
             {/* services */}
@@ -228,7 +228,7 @@ function Nav() {
               }}
             >
               <a href="#servicessection" className="block py-2 pl-3 ">
-                Services
+                SERVICES
               </a>
             </li>
             {/* what we do  */}
@@ -239,7 +239,7 @@ function Nav() {
               }}
             >
               <a href="#whatwedosection" className="block py-2 pl-3 ">
-                What we do
+                WORK
               </a>
             </li>
             {/* companies */}
@@ -250,7 +250,7 @@ function Nav() {
               }}
             >
               <a href="#companiessection" className="block py-2 pl-3 ">
-                Companies
+                COMPANIES
               </a>
             </li>
             {/* projects */}
@@ -261,7 +261,7 @@ function Nav() {
               }}
             >
               <a href="#projectssection" className="block py-2 pl-3 ">
-                Projects
+                PROJECTS
               </a>
             </li>
             {/* contact */}
@@ -272,7 +272,7 @@ function Nav() {
               }}
             >
               <a href="#contactsection" className="block py-2 pl-3 ">
-                Contact
+                CONTACT
               </a>
             </li>
           </ul>
