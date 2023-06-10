@@ -153,3 +153,62 @@ body {
     max-width: 1320px !important;
   }
 }
+
+/* ----------- css for slider ------------- */
+button.splide__arrow.splide__arrow--next {
+  top: 94% !important;
+  right: 2rem !important;
+}
+button.splide__arrow.splide__arrow--prev {
+  display: none !important;
+}
+.splide__pagination {
+  counter-reset: pagination-num;
+  display: flex !important;
+  justify-content: flex-start !important;
+  width: 50% !important;
+  margin-left: 28px !important;
+  bottom: 1.5rem !important;
+}
+
+.splide__pagination__page:before {
+  counter-increment: pagination-num;
+  content: counter(pagination-num);
+}
+.splide__pagination__page.is-active {
+  background: none !important;
+}
+
+.splide__pagination__page {
+  background: none !important;
+  color: #000 !important;
+}
+.splide__pagination li {
+  margin-right: 40px !important;
+}
+
+.splide__track--nav > .splide__list > .splide__slide.is-active {
+  opacity: 1 !important;
+  border: unset !important;
+  transition: all 0.5s ease-in !important;
+}
+.splide__track--nav > .splide__list > .splide__slide {
+  opacity: 0.5 !important;
+
+  border: unset !important;
+}
+
+@media screen and (max-width: 640px) {
+  .splide {
+      padding: 20px !important;
+  }
+  button.splide__arrow.splide__arrow--next {
+      top: 17rem !important;
+      right: 7rem !important;
+  }
+  button.splide__arrow.splide__arrow--prev {
+      top: 17rem;
+      left: 7rem;
+      display: block !important;
+  }
+}

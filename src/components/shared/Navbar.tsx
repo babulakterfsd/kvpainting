@@ -20,7 +20,7 @@ function Nav() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setWindowHeight(window.scrollY > 300);
+      setWindowHeight(window.scrollY > 850);
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
@@ -29,7 +29,7 @@ function Nav() {
     <div
       className={`${
         windowHeight
-          ? 'absolute top-0 bg-[rgba(255,255,255,1)] text-black shadow-2xl'
+          ? 'fixed top-0 bg-[rgba(255,255,255,1)] text-black shadow-2xl'
           : 'absolute top-0 text-white'
       } z-50 w-full`}
     >

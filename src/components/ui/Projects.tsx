@@ -1,3 +1,4 @@
+import ImageSlider from '../shared/Splider';
 const Projects = () => {
   return (
     <section id="projectssection" className="lg:py-28 grid grid-cols-12">
@@ -22,6 +23,7 @@ const Projects = () => {
         >
           check our great designs
         </h2>
+        <ImageSlider />
       </div>
     </section>
   );
