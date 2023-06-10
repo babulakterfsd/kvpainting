@@ -19,7 +19,7 @@ const Services = () => {
           OUR SERVICES
         </h3>
         <h2
-          className="text-6xl font-[400] text-center lg:mt-4 lg:mb-14 text-uppercase"
+          className="text-6xl font-[400] text-center lg:mt-6 lg:mb-14 text-uppercase"
           style={{
             fontFamily: 'modular14',
             letterSpacing: '2%',

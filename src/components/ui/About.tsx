@@ -16,7 +16,7 @@ const About = () => {
           ABOUT US
         </h3>
         <h2
-          className="text-4xl font-[500] text-center lg:mt-4 lg:mb-14"
+          className="text-4xl font-[500] text-center lg:mt-6 lg:mb-14"
           style={{
             fontFamily: 'druk_wide_webmedium',
             letterSpacing: '2%',

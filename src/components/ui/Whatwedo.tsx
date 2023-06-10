@@ -21,7 +21,7 @@ const Whatwedo = () => {
               WHAT WE DO
             </h3>
             <h2
-              className="text-6xl font-[400] lg:mt-4 lg:mb-8 text-uppercase"
+              className="text-6xl font-[400] lg:mt-4 lg:mb-6 text-uppercase"
               style={{
                 fontFamily: 'modular14',
                 letterSpacing: '2%',
