@@ -18,49 +18,67 @@ font-family: 'Manrope';
 @font-face {
   font-family: 'plus_jakarta_sansregular';
   src: url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.eot');
-  src: url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.woff2') format('woff2'),
-       url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.woff') format('woff'),
-       url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.svg#plus_jakarta_sansregular') format('svg');
+  src: url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.woff2')
+      format('woff2'),
+    url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.woff')
+      format('woff'),
+    url('../../public/assets/fonts/jakarta/plusjakartasans-variablefont_wght-webfont.svg#plus_jakarta_sansregular')
+      format('svg');
   font-weight: normal;
   font-style: normal;
-
 }
 
 @font-face {
-    font-family: 'druk_wide_webmedium';
-    src: url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.eot');
-    src: url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.woff2') format('woff2'),
-         url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.woff') format('woff'),
-         url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.ttf') format('truetype'),
-         url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.svg#druk_wide_webmedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'druk_wide_webmedium';
+  src: url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.eot');
+  src: url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.woff2')
+      format('woff2'),
+    url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.woff')
+      format('woff'),
+    url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.ttf')
+      format('truetype'),
+    url('../../public/assets/fonts/drukwideweb/druk_wide_web_medium_regular-webfont.svg#druk_wide_webmedium')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'modular14';
-    src: url('../../public/assets/fonts/modular/modular-14-webfont.eot');
-    src: url('../../public/assets/fonts/modular/modular-14-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../public/assets/fonts/modular/modular-14-webfont.woff2') format('woff2'),
-         url('../../public/assets/fonts/modular/modular-14-webfont.woff') format('woff'),
-         url('../../public/assets/fonts/modular/modular-14-webfont.ttf') format('truetype'),
-         url('../../public/assets/fonts/modular/modular-14-webfont.svg#modular14') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'modular14';
+  src: url('../../public/assets/fonts/modular/modular-14-webfont.eot');
+  src: url('../../public/assets/fonts/modular/modular-14-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../public/assets/fonts/modular/modular-14-webfont.woff2')
+      format('woff2'),
+    url('../../public/assets/fonts/modular/modular-14-webfont.woff')
+      format('woff'),
+    url('../../public/assets/fonts/modular/modular-14-webfont.ttf')
+      format('truetype'),
+    url('../../public/assets/fonts/modular/modular-14-webfont.svg#modular14')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'satoshi';
-    src: url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.eot');
-    src: url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.woff2') format('woff2'),
-         url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.woff') format('woff'),
-         url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.ttf') format('truetype'),
-         url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.svg#falsenormal') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'satoshi';
+  src: url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.eot');
+  src: url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.woff2')
+      format('woff2'),
+    url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.woff')
+      format('woff'),
+    url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.ttf')
+      format('truetype'),
+    url('../../public/assets/fonts/satoshi/satoshi-regular-webfont.svg#falsenormal')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {

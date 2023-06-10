@@ -44,7 +44,8 @@ const About = () => {
               <span className="mt-2 block">
                 {' '}
                 Eros egestas pellentesque sed convallis sed. Lacus pellentesque
-                commodo condimentum libero viverra.
+                commodo condimentum libero viverra.commodo condimentum libero
+                viverra.
               </span>
             </p>
             <div className="w-42">
