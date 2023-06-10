@@ -13,6 +13,7 @@ const Services = () => {
           style={{
             fontFamily: 'plus_jakarta_sansregular',
             letterSpacing: '.4rem',
+            lineHeight: '129%',
           }}
         >
           OUR SERVICES

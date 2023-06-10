@@ -10,6 +10,7 @@ const About = () => {
           style={{
             fontFamily: 'plus_jakarta_sansregular',
             letterSpacing: '.4rem',
+            lineHeight: '129%',
           }}
         >
           ABOUT US
