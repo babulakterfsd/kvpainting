@@ -28,7 +28,7 @@ const Services = () => {
         >
           Making Your Dream Home a <br /> Colorful Reality
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-x-20 lg:mb-14">
+        <div className="grid grid-cols-1 lg:grid-cols-4 lg:gap-x-24 lg:mb-14">
           <div className="p-2 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-12 lg:w-56">
             <Image
               src={outsidehome}
