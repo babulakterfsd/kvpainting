@@ -34,9 +34,10 @@ const Services = () => {
             alt="Outside Home"
             width={136}
             height={136}
+            className="p-3 block"
           />
           <p
-            className=" font-[600] text-2xl"
+            className=" font-[600] text-2xl pb-3"
             style={{
               fontFamily: 'plus_jakarta_sansregular',
               letterSpacing: '2%',
@@ -46,9 +47,15 @@ const Services = () => {
           </p>
         </div>
         <div className="p-2 mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-12 lg:w-56">
-          <Image src={insidehome} alt="inside Home" width={136} height={136} />
+          <Image
+            src={insidehome}
+            alt="inside Home"
+            width={136}
+            height={136}
+            className="p-3 block"
+          />
           <p
-            className=" font-[600] text-2xl"
+            className=" font-[600] text-2xl pb-3"
             style={{
               fontFamily: 'plus_jakarta_sansregular',
               letterSpacing: '2%',
@@ -58,9 +65,15 @@ const Services = () => {
           </p>
         </div>
         <div className="p-2 mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-12 lg:w-56">
-          <Image src={decoration} alt="decoration" width={136} height={136} />
+          <Image
+            src={decoration}
+            alt="decoration"
+            width={136}
+            height={136}
+            className="p-3 block"
+          />
           <p
-            className=" font-[600] text-2xl"
+            className=" font-[600] text-2xl pb-3"
             style={{
               fontFamily: 'plus_jakarta_sansregular',
               letterSpacing: '2%',
@@ -70,9 +83,15 @@ const Services = () => {
           </p>
         </div>
         <div className="p-2 mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-12 lg:w-56">
-          <Image src={restoration} alt="decoration" width={136} height={136} />
+          <Image
+            src={restoration}
+            alt="decoration"
+            width={136}
+            height={136}
+            className="p-3 block"
+          />
           <p
-            className=" font-[600] text-2xl"
+            className=" font-[600] text-2xl pb-3"
             style={{
               fontFamily: 'plus_jakarta_sansregular',
               letterSpacing: '2%',
