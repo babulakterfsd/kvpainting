@@ -8,7 +8,7 @@ const Banner = () => {
         <div className="grid grid-cols-12 px-7 lg:px-0">
           <div className=" flex flex-col col-span-12 lg:col-span-6 lg:col-start-3 lg:mt-72 lg:ml-16 sm:text-center lg:text-left">
             <h1
-              className="text-[1.9rem] mt-40 lg:mt-0 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500]"
+              className="text-[1.9rem] mt-52 lg:mt-0 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500]"
               style={{
                 fontFamily: 'druk_wide_webmedium',
                 letterSpacing: '.02em',
