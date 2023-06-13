@@ -106,20 +106,18 @@ const ImageSlider = () => {
       >
         <SplideTrack>
           {data?.map((item) => (
-            <>
               <SplideSlide key={item.id}>
                 <div className="card">
                   <img src={item.img} alt="img" />
                 </div>
               </SplideSlide>
-            </>
           ))}
         </SplideTrack>
         <div className="splide__arrows">
           <button className="splide__arrow splide__arrow--prev">
             <FontAwesomeIcon
               style={{
-                color: '#000',
+                color: 'rgba(0, 0, 0, 0.5)',
                 fontSize: '.5rem',
               }}
               icon={faArrowCircleRight}
@@ -128,7 +126,7 @@ const ImageSlider = () => {
           <button className="splide__arrow splide__arrow--next">
             <FontAwesomeIcon
               style={{
-                color: '#000',
+                color: 'rgba(0, 0, 0, 0.5)',
                 fontSize: '.5rem',
               }}
               icon={faArrowCircleRight}

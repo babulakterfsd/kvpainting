@@ -6,9 +6,9 @@ import restoration from '../../../public/assets/images/service-restoration.png';
 
 const Services = () => {
   return (
-    <section id="servicessection" className="lg:py-28">
+    <section id="servicessection" className="lg:py-28 mt-32 lg:mt-0 ">
       <h3
-        className=" font-[400] text-center text-[1.3rem]"
+        className=" font-[400] text-center text-base lg:text-[1.3rem] px-7 lg:px-0"
         style={{
           fontFamily: 'plus_jakarta_sansregular',
           letterSpacing: '.4rem',
@@ -18,17 +18,17 @@ const Services = () => {
         OUR SERVICES
       </h3>
       <h2
-        className="text-6xl font-[400] text-center lg:mt-6 lg:mb-14 text-uppercase"
+        className="text-4xl lg:text-6xl font-[400] text-center mt-4 lg:mt-6 mb-8 lg:mb-14 text-uppercase leading-[38px] lg:leading-[61px] px-7 lg:px-0"
         style={{
           fontFamily: 'modular14',
           letterSpacing: '2%',
-          lineHeight: '61px',
         }}
       >
-        Making Your Dream Home a <br /> Colorful Reality
+        Making Your Dream Home a <br className="hidden lg:block" /> Colorful
+        Reality
       </h2>
-      <div className="flex flex-col lg:flex-row gap-y-3 justify-center lg:mb-14">
-        <div className="p-2 mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-12 lg:w-56">
+      <div className="grid gap-2 lg:gap-0 grid-cols-2 lg:grid-cols-4 lg:flex flex-wrap  gap-y-5 lg:gap-y-0 justify-center lg:mb-14 px-4 lg:px-0">
+        <div className="px-6 py-2 lg:p-2 lg:mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-4 lg:gap-y-12 lg:w-56">
           <Image
             src={outsidehome}
             alt="Outside Home"
@@ -37,7 +37,7 @@ const Services = () => {
             className="p-3 block"
           />
           <p
-            className=" font-[600] text-2xl pb-3"
+            className=" font-[600] text-base text-center lg:text-2xl pb-3"
             style={{
               fontFamily: 'plus_jakarta_sansregular',
               letterSpacing: '2%',
@@ -46,7 +46,7 @@ const Services = () => {
             Outside Painting
           </p>
         </div>
-        <div className="p-2 mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-12 lg:w-56">
+        <div className="px-6 py-2 lg:p-2  lg:mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-4 lg:gap-y-12 lg:w-56">
           <Image
             src={insidehome}
             alt="inside Home"
@@ -55,16 +55,16 @@ const Services = () => {
             className="p-3 block"
           />
           <p
-            className=" font-[600] text-2xl pb-3"
+            className=" font-[600] text-base text-center lg:text-2xl pb-3"
             style={{
               fontFamily: 'plus_jakarta_sansregular',
               letterSpacing: '2%',
             }}
           >
-            In-house Painting
+            Inside Painting
           </p>
         </div>
-        <div className="p-2 mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-12 lg:w-56">
+        <div className="px-6 py-2 lg:p-2  lg:mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-4 lg:gap-y-12 lg:w-56">
           <Image
             src={decoration}
             alt="decoration"
@@ -73,7 +73,7 @@ const Services = () => {
             className="p-3 block"
           />
           <p
-            className=" font-[600] text-2xl pb-3"
+            className=" font-[600] text-base text-center lg:text-2xl pb-3 px-8"
             style={{
               fontFamily: 'plus_jakarta_sansregular',
               letterSpacing: '2%',
@@ -82,7 +82,7 @@ const Services = () => {
             Decoration
           </p>
         </div>
-        <div className="p-2 mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-12 lg:w-56">
+        <div className="px-6 py-2 lg:p-2  lg:mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-4 lg:gap-y-12 lg:w-56">
           <Image
             src={restoration}
             alt="decoration"
@@ -91,7 +91,7 @@ const Services = () => {
             className="p-3 block"
           />
           <p
-            className=" font-[600] text-2xl pb-3"
+            className=" font-[600] text-base text-center lg:text-2xl pb-3 px-8"
             style={{
               fontFamily: 'plus_jakarta_sansregular',
               letterSpacing: '2%',
@@ -101,8 +101,8 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className="w-42 text-center">
-        <button className="bg-black px-10 py-4  text-white mt-10 font-bold">
+      <div className="w-full text-center ">
+        <button className="bg-black lg:px-10 py-3 lg:py-4 w-[90%] sm:w-[200px] lg:w-[260px]  text-white mt-10">
           Get A Free Quote
         </button>
       </div>

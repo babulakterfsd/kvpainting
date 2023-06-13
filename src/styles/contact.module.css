@@ -1,6 +1,15 @@
 .contactbg {
-    background-image: url('../../public/assets/images/contactyellowbg.png');
+  background-image: url('../../public/assets/images/contactyellowbg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 1023.5px) {
+  .contactbg {
+    background-image: url('../../public/assets/images/mobilecontactbg.png');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+  }
 }

@@ -1,19 +1,29 @@
 .bannerbg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-      url('../../public/assets/images/bannerbg.png');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('../../public/assets/images/bannerbg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
+@media screen and (max-width: 1023.5px) {
+  .bannerbg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+      url('../../public/assets/images/bannerbg.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+}
 
 .gradientTitle {
   background: linear-gradient(
     to right,
     rgba(27, 191, 220, 1) 1%,
-    rgba(251,199,2,1) 100%,
-    rgba(255,255,255,1) 100%
+    rgba(251, 199, 2, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
   );
   background-clip: text;
   -webkit-background-clip: text;

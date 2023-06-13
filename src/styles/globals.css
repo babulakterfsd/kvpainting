@@ -98,8 +98,8 @@ body {
 .scrollToTop::after {
   font-family: 'font-awesome';
   position: fixed;
-  bottom: 10px;
-  right: 30px;
+  bottom: 5px;
+  right: 10px;
   color: #ff9a3d;
   display: block;
   content: '\f062';
@@ -177,11 +177,12 @@ button.splide__arrow.splide__arrow--prev {
 }
 .splide__pagination__page.is-active {
   background: none !important;
+  color: #ff9a3d !important;
 }
 
 .splide__pagination__page {
   background: none !important;
-  color: #000 !important;
+  color: rgb(46, 46, 43) !important;
 }
 .splide__pagination li {
   margin-right: 40px !important;
@@ -203,11 +204,11 @@ button.splide__arrow.splide__arrow--prev {
     padding: 20px !important;
   }
   button.splide__arrow.splide__arrow--next {
-    top: 17rem !important;
+    top: 15.8rem !important;
     right: 7rem !important;
   }
   button.splide__arrow.splide__arrow--prev {
-    top: 17rem;
+    top: 16rem;
     left: 7rem;
     display: block !important;
   }

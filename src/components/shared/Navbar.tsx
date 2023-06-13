@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import scrollToElement from 'scroll-to-element';
 import Logo from '../../../public/assets/images/logo.png';
+import Style from '../../styles/banner.module.css';
 import Styles from '../../styles/navbar.module.css';
 
 function Nav() {
@@ -31,7 +32,7 @@ function Nav() {
         windowHeight
           ? 'fixed top-0 bg-[rgba(255,255,255,1)] text-black shadow-2xl'
           : 'absolute top-0 text-white'
-      } z-50 w-full`}
+      } z-50 w-full overflow-x-hidden`}
     >
       <nav
         className={` ${
@@ -39,14 +40,15 @@ function Nav() {
         } sm:px-6 md:px-12`}
       >
         <div className="grid grid-cols-12">
-          <div className="lg:col-start-3 lg:col-span-8 col-span-12 flex justify-between lg:gap-x-36 items-center">
+          <div className="lg:col-start-3 lg:col-span-8 col-span-12 flex justify-between lg:gap-x-6 xl:gap-x-36 items-center">
+            {/* desktop logo */}
             {windowHeight ? (
               <Image
                 src={Logo}
                 alt="KVPainting"
                 height={80}
                 width={70}
-                className="cursor-pointer"
+                className="cursor-pointer hidden lg:block"
               />
             ) : (
               <Image
@@ -54,16 +56,42 @@ function Nav() {
                 alt="KVPainting"
                 height={138}
                 width={143}
-                className="cursor-pointer mr-12"
+                className="cursor-pointer hidden lg:block"
+              />
+            )}
+            {/* mobile logo */}
+            {windowHeight ? (
+              <Image
+                src={Logo}
+                alt="KVPainting"
+                height={60}
+                width={50}
+                className="cursor-pointer lg:hidden ml-6"
+              />
+            ) : (
+              <Image
+                src={Logo}
+                alt="KVPainting"
+                height={92}
+                width={95}
+                className="cursor-pointer mr-12 lg:hidden ml-6"
               />
             )}
 
-            <div className="flex md:order-2">
+            <h4
+              className={`${
+                !windowHeight ? 'hidden' : `${Style.gradientTitle} font-bolder`
+              } lg:hidden`}
+            >
+              KVPainting
+            </h4>
+
+            <div className="flex md:order-2 mr-6">
               <button
                 onClick={toggleMenu}
                 data-collapse-toggle="NavBarId"
                 type="button"
-                className="inline-flex items-center p-2 text-base md:text-xl text-main-white rounded-lg lg:hidden hover:bg-orange-light focus:outline-none focus:ring-2 focus:ring-main-white"
+                className="inline-flex items-center p-2 text-base md:text-xl  rounded-lg lg:hidden focus:outline-none text-black  bg-[rgba(251,199,2,1)]"
                 aria-controls="mobile-menu-2"
                 aria-expanded="false"
               >
@@ -179,7 +207,7 @@ function Nav() {
                 <li onClick={() => scrollTo('#contactsection')}>
                   <a
                     href="#contactsection"
-                    className="block text-sm font-[400] bg-[rgba(251,199,2,1)] px-5 py-2 text-black"
+                    className="block text-sm font-[400] bg-[rgba(251,199,2,1)] px-5 pt-3 py-2 text-black"
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
                       letterSpacing: '.1em',
@@ -194,11 +222,11 @@ function Nav() {
           </div>
         </div>
         {/* mobile */}
-        <div className="w-full md:w-auto block lg:hidden">
+        <div className="w-full px-0.5 md:w-auto block lg:hidden">
           <ul
             className={`${
               isOpen ? 'block' : 'hidden'
-            } flex flex-col items-center mt-4 text-base sm:text-lg bg-[#3a2828e6] text-white`}
+            } flex flex-col items-center mt-0.5 rounded-2xl text-base sm:text-lg bg-white text-black px-7 pt-1.5 pb-2.5`}
           >
             {/* about */}
             <li
@@ -227,7 +255,16 @@ function Nav() {
                 setIsOpen(false);
               }}
             >
-              <a href="#servicessection" className="block py-2 pl-3 ">
+              <a
+                href="#servicessection"
+                className="block py-2 text-sm font-[400]"
+                aria-current="page"
+                style={{
+                  fontFamily: 'plus_jakarta_sansregular',
+                  letterSpacing: '.1em',
+                  lineHeight: '22px',
+                }}
+              >
                 SERVICES
               </a>
             </li>
@@ -238,7 +275,16 @@ function Nav() {
                 setIsOpen(false);
               }}
             >
-              <a href="#whatwedosection" className="block py-2 pl-3 ">
+              <a
+                href="#whatwedosection"
+                className="block py-2 text-sm font-[400]"
+                aria-current="page"
+                style={{
+                  fontFamily: 'plus_jakarta_sansregular',
+                  letterSpacing: '.1em',
+                  lineHeight: '22px',
+                }}
+              >
                 WORK
               </a>
             </li>
@@ -249,7 +295,16 @@ function Nav() {
                 setIsOpen(false);
               }}
             >
-              <a href="#companiessection" className="block py-2 pl-3 ">
+              <a
+                href="#companiessection"
+                className="block py-2 text-sm font-[400]"
+                aria-current="page"
+                style={{
+                  fontFamily: 'plus_jakarta_sansregular',
+                  letterSpacing: '.1em',
+                  lineHeight: '22px',
+                }}
+              >
                 COMPANIES
               </a>
             </li>
@@ -260,7 +315,16 @@ function Nav() {
                 setIsOpen(false);
               }}
             >
-              <a href="#projectssection" className="block py-2 pl-3 ">
+              <a
+                href="#projectssection"
+                className="block py-2 text-sm font-[400]"
+                aria-current="page"
+                style={{
+                  fontFamily: 'plus_jakarta_sansregular',
+                  letterSpacing: '.1em',
+                  lineHeight: '22px',
+                }}
+              >
                 PROJECTS
               </a>
             </li>
@@ -271,7 +335,16 @@ function Nav() {
                 setIsOpen(false);
               }}
             >
-              <a href="#contactsection" className="block py-2 pl-3 ">
+              <a
+                href="#contactsection"
+                className="block text-sm font-[400] bg-[rgba(251,199,2,1)] px-5 pt-3 py-2 text-black"
+                aria-current="page"
+                style={{
+                  fontFamily: 'plus_jakarta_sansregular',
+                  letterSpacing: '.1em',
+                  lineHeight: '22px',
+                }}
+              >
                 CONTACT
               </a>
             </li>
