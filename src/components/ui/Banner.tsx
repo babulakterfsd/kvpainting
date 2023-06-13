@@ -28,7 +28,7 @@ const Banner = () => {
                 letterSpacing: '.02rem',
               }}
               data-aos="fade-down"
-              data-aos-duration="2500"
+              data-aos-duration="2000"
             >
               Home painting is an art that breathes life into dull walls.
               Skilled painters transform spaces with brushstrokes, colors, and
