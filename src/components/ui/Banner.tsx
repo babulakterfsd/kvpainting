@@ -46,7 +46,7 @@ const Banner = () => {
             </div>
 
             <div
-              className="mt-14 lg:mt-32 flex gap-x-4 lg:gap-x-11 justify-center lg:justify-normal"
+              className="mt-12 lg:mt-32 flex gap-x-4 lg:gap-x-11 justify-center lg:justify-normal"
               data-aos="fade-down"
               data-aos-duration="2500"
             >
