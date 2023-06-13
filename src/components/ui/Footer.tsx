@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <section
       id="footersection"
-      className="pt-10 pb-1 lg:pt-16 lg:pb-8 bg-[rgba(18,18,18,1)] text-white grid grid-cols-12"
+      className="pt-10 pb-1 lg:pt-16 lg:pb-8 bg-[rgba(18,18,18,1)] text-white grid grid-cols-12 overflow-x-hidden"
     >
       <div className="col-span-12 lg:col-span-8 lg:col-start-3">
         <div className="grid grid-cols-12 ">

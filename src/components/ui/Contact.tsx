@@ -6,10 +6,15 @@ import Styles from '../../styles/contact.module.css';
 
 const Contact = () => {
   return (
-    <section id="contactsection" className="py-20 lg:py-28 grid grid-cols-12">
+    <section
+      id="contactsection"
+      className="py-20 lg:py-28 grid grid-cols-12 overflow-x-hidden"
+    >
       <div className="col-span-12 lg:col-span-8 lg:col-start-3 px-7 lg:px-0">
         <div
           className={`${Styles.contactbg} pt-6 pb-52 rounded-2xl lg:py-0 lg:rounded-3xl px-7 lg:px-0`}
+          data-aos="fade-down"
+          data-aos-duration="1500"
         >
           <div className="textcontainer flex flex-col lg:justify-start lg:items-start">
             <h2
@@ -33,7 +38,11 @@ const Contact = () => {
         </div>
         <div className="contactways mt-10 lg:mt-40">
           <div className="grid grid-cols-1 sm:grid-cols-3">
-            <div className="flex flex-col justify-center items-center">
+            <div
+              className="flex flex-col justify-center items-center"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+            >
               <Image src={telephone} alt="telephone" width={125} height={125} />
               <p
                 className="text-center text-[1.1rem] font-[400] mt-1.5 lg:mt-9 lg:mb-4"
@@ -48,7 +57,11 @@ const Contact = () => {
                 (03) 8770 2255 <br /> (03) 8770 2255
               </h5>
             </div>
-            <div className="flex flex-col justify-center items-center my-10 lg:my-0">
+            <div
+              className="flex flex-col justify-center items-center my-10 lg:my-0"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+            >
               <Image src={location} alt="location" width={125} height={125} />
               <p
                 className="text-center text-[1.1rem] font-[400] mt-1.5 lg:mt-9 lg:mb-4"
@@ -63,7 +76,11 @@ const Contact = () => {
                 40 Brunel Road, Seaford, <br /> Victoria 3198 Australia
               </h5>
             </div>
-            <div className="flex flex-col justify-center items-center">
+            <div
+              className="flex flex-col justify-center items-center"
+              data-aos="fade-down"
+              data-aos-duration="2000"
+            >
               <Image src={email} alt="email" width={125} height={125} />
               <p
                 className="text-center text-[1.1rem] font-[400] mt-1.5 lg:mt-9 lg:mb-4"

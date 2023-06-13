@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="aboutsection"
-      className="pt-20 pb-6 lg:py-28 grid grid-cols-12"
+      className="pt-20 pb-6 lg:py-28 grid grid-cols-12 overflow-x-hidden"
     >
       <div className="col-span-12 lg:col-span-8 lg:col-start-3 px-7 lg:px-0">
         <h3
@@ -16,17 +16,25 @@ const About = () => {
             letterSpacing: '.4rem',
             lineHeight: '129%',
           }}
+          data-aos="fade-down"
+          data-aos-duration="2500"
         >
           ABOUT US
         </h3>
         <h2
           className={`${Styles.maintitle} text-4xl font-[500] text-center mt-4 lg:mt-6 lg:mb-14 lg:leading-[49px] `}
+          data-aos="fade-down"
+          data-aos-duration="1500"
         >
           Transforming <br className="lg:hidden" /> Homes with <br /> Expert
           Painting and Restoration Services
         </h2>
         {/* about text and photo container */}
-        <div className="grid sm:flex lg:grid grid-cols-1 lg:grid-cols-2 lg:gap-x-6  justify-center items-center flex-col">
+        <div
+          className="grid sm:flex lg:grid grid-cols-1 lg:grid-cols-2 lg:gap-x-6  justify-center items-center flex-col"
+          data-aos="fade-down"
+          data-aos-duration="2500"
+        >
           <div className="px-4">
             <p
               className="text-base font-[400] "

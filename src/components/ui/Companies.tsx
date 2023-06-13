@@ -7,7 +7,10 @@ import workplace from '../../../public/assets/images/company-workplace.png';
 
 const Companies = () => {
   return (
-    <section id="companiessection" className="py-20 lg:py-28 grid grid-cols-12">
+    <section
+      id="companiessection"
+      className="py-20 lg:py-28 grid grid-cols-12 overflow-x-hidden"
+    >
       <div className="col-span-12 lg:col-span-8 lg:col-start-3 px-7 lg:px-0">
         <h2
           className="text-center font-[700] text-[1.1rem] lg:text-2xl mb-7 lg:mb-10 leading-[32px] lg:leading-[46px]"
@@ -15,11 +18,17 @@ const Companies = () => {
             fontFamily: 'satoshi',
             letterSpacing: '.175em',
           }}
+          data-aos="fade-down"
+          data-aos-duration="1500"
         >
           More than 1500+ Companies{' '}
           <span className="underline text-[#fba602]">Trust Us!</span>
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-8 gap-y-4 lg:gap-8 ">
+        <div
+          className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-8 gap-y-4 lg:gap-8 "
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        >
           <Image src={ilat} alt="Ilat" />
           <Image src={pdotcom} alt="pdotcom" />
           <Image src={qantas} alt="qantas" />

@@ -3,7 +3,7 @@ import mobilebannerunder from '../../../public/assets/images/mobileunderbannerbg
 import Styles from '../../styles/banner.module.css';
 const Banner = () => {
   return (
-    <section id="bannersection" className="">
+    <section id="bannersection" className="overflow-x-hidden">
       <div className={`${Styles.bannerbg} h-[120vh] lg:h-[200vh] xl:h-[150vh]`}>
         <div className="grid grid-cols-12 px-7 lg:px-0">
           <div className=" flex flex-col col-span-12 lg:col-span-6 lg:col-start-3 lg:mt-72 lg:ml-16 sm:text-center lg:text-left">
@@ -13,6 +13,8 @@ const Banner = () => {
                 fontFamily: 'druk_wide_webmedium',
                 letterSpacing: '.02em',
               }}
+              data-aos="fade-down"
+              data-aos-duration="1500"
             >
               <span className={`${Styles.gradientTitle} font-medium`}>
                 Beautifying
@@ -25,6 +27,8 @@ const Banner = () => {
                 fontFamily: 'plus_jakarta_sansregular',
                 letterSpacing: '.02rem',
               }}
+              data-aos="fade-down"
+              data-aos-duration="2500"
             >
               Home painting is an art that breathes life into dull walls.
               Skilled painters transform spaces with brushstrokes, colors, and
@@ -41,7 +45,11 @@ const Banner = () => {
               </button>
             </div>
 
-            <div className="mt-14 lg:mt-32 flex gap-x-4 lg:gap-x-11 justify-center lg:justify-normal">
+            <div
+              className="mt-14 lg:mt-32 flex gap-x-4 lg:gap-x-11 justify-center lg:justify-normal"
+              data-aos="fade-down"
+              data-aos-duration="2500"
+            >
               <div className="h-32 w-52 p-4 bg-[#353535] border-gray-400 rounded-md flex justify-center flex-col gap-y-3">
                 <h2
                   className="text-5xl text-[#FBC702] font-[500]"

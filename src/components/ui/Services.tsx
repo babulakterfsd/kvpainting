@@ -6,7 +6,10 @@ import restoration from '../../../public/assets/images/service-restoration.png';
 
 const Services = () => {
   return (
-    <section id="servicessection" className="lg:py-28 mt-32 lg:mt-0 ">
+    <section
+      id="servicessection"
+      className="lg:py-28 mt-32 lg:mt-0 overflow-x-hidden"
+    >
       <h3
         className=" font-[400] text-center text-base lg:text-[1.3rem] px-7 lg:px-0"
         style={{
@@ -14,6 +17,8 @@ const Services = () => {
           letterSpacing: '.4rem',
           lineHeight: '129%',
         }}
+        data-aos="fade-down"
+        data-aos-duration="2500"
       >
         OUR SERVICES
       </h3>
@@ -23,12 +28,18 @@ const Services = () => {
           fontFamily: 'modular14',
           letterSpacing: '2%',
         }}
+        data-aos="fade-down"
+        data-aos-duration="1500"
       >
         Making Your Dream Home a <br className="hidden lg:block" /> Colorful
         Reality
       </h2>
       <div className="grid gap-2 lg:gap-0 grid-cols-2 lg:grid-cols-4 lg:flex flex-wrap  gap-y-5 lg:gap-y-0 justify-center lg:mb-14 px-4 lg:px-0">
-        <div className="px-6 py-2 lg:p-2 lg:mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-4 lg:gap-y-12 lg:w-56">
+        <div
+          className="px-6 py-2 lg:p-2 lg:mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-4 lg:gap-y-12 lg:w-56"
+          data-aos="fade-down"
+          data-aos-duration="2500"
+        >
           <Image
             src={outsidehome}
             alt="Outside Home"
@@ -46,7 +57,11 @@ const Services = () => {
             Outside Painting
           </p>
         </div>
-        <div className="px-6 py-2 lg:p-2  lg:mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-4 lg:gap-y-12 lg:w-56">
+        <div
+          className="px-6 py-2 lg:p-2  lg:mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-4 lg:gap-y-12 lg:w-56"
+          data-aos="fade-down"
+          data-aos-duration="2500"
+        >
           <Image
             src={insidehome}
             alt="inside Home"
@@ -64,7 +79,11 @@ const Services = () => {
             Inside Painting
           </p>
         </div>
-        <div className="px-6 py-2 lg:p-2  lg:mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-4 lg:gap-y-12 lg:w-56">
+        <div
+          className="px-6 py-2 lg:p-2  lg:mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-4 lg:gap-y-12 lg:w-56"
+          data-aos="fade-down"
+          data-aos-duration="2500"
+        >
           <Image
             src={decoration}
             alt="decoration"
@@ -82,7 +101,11 @@ const Services = () => {
             Decoration
           </p>
         </div>
-        <div className="px-6 py-2 lg:p-2  lg:mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-4 lg:gap-y-12 lg:w-56">
+        <div
+          className="px-6 py-2 lg:p-2  lg:mx-4 border-2 border-slate-300 flex justify-center items-center flex-col gap-y-4 lg:gap-y-12 lg:w-56"
+          data-aos="fade-down"
+          data-aos-duration="2500"
+        >
           <Image
             src={restoration}
             alt="decoration"
@@ -101,7 +124,11 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className="w-full text-center ">
+      <div
+        className="w-full text-center "
+        data-aos="fade-down"
+        data-aos-duration="2500"
+      >
         <button className="bg-black lg:px-10 py-3 lg:py-4 w-[90%] sm:w-[200px] lg:w-[260px]  text-white mt-10">
           Get A Free Quote
         </button>

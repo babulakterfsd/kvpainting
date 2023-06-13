@@ -29,7 +29,8 @@ const ImageSlider = () => {
   ];
 
   return (
-    <div className="cards">
+    <div className="cards" data-aos="fade-down"
+    data-aos-duration="2500">
       <Splide
         hasTrack={false}
         aria-label="Testimonials"
