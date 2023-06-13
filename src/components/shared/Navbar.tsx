@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import scrollToElement from 'scroll-to-element';
 import Logo from '../../../public/assets/images/logo.png';
@@ -10,6 +11,7 @@ import Styles from '../../styles/navbar.module.css';
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   const [windowHeight, setWindowHeight] = useState(false);
+  const router = useRouter();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -49,6 +51,7 @@ function Nav() {
                 height={80}
                 width={70}
                 className="cursor-pointer hidden lg:block"
+                onClick={() => router.push('/')}
               />
             ) : (
               <Image
@@ -57,6 +60,7 @@ function Nav() {
                 height={138}
                 width={143}
                 className="cursor-pointer hidden lg:block"
+                onClick={() => router.push('/')}
               />
             )}
             {/* mobile logo */}
@@ -67,6 +71,7 @@ function Nav() {
                 height={60}
                 width={50}
                 className="cursor-pointer lg:hidden ml-6"
+                onClick={() => router.push('/')}
               />
             ) : (
               <Image
@@ -75,6 +80,7 @@ function Nav() {
                 height={92}
                 width={95}
                 className="cursor-pointer mr-12 lg:hidden ml-6"
+                onClick={() => router.push('/')}
               />
             )}
 
