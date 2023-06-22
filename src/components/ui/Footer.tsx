@@ -1,18 +1,14 @@
 import Image from 'next/image';
-import axpress from '../../../public/assets/images/aexpress.png';
-import discover from '../../../public/assets/images/discover.png';
 import fb from '../../../public/assets/images/fby.png';
 import insta from '../../../public/assets/images/instay.png';
 import logo from '../../../public/assets/images/logo.png';
-import master from '../../../public/assets/images/mastercard.png';
 import twitter from '../../../public/assets/images/twittery.png';
-import visa from '../../../public/assets/images/visa.png';
 
 const Footer = () => {
   return (
     <section
       id="footersection"
-      className="pt-10 pb-1 lg:pt-16 lg:pb-8 bg-[rgba(18,18,18,1)] text-white grid grid-cols-12 overflow-x-hidden"
+      className="pt-10 pb-4 lg:pt-16 lg:pb-8 bg-[rgba(18,18,18,1)] text-white grid grid-cols-12 overflow-x-hidden"
     >
       <div className="col-span-12 lg:col-span-8 lg:col-start-3">
         <div className="grid grid-cols-12 ">
@@ -21,8 +17,8 @@ const Footer = () => {
               <Image
                 src={logo}
                 alt="logo"
-                height={178}
-                width={186}
+                height={158}
+                width={166}
                 className="hidden lg:block"
               />
               <Image
@@ -39,7 +35,7 @@ const Footer = () => {
               <Image src={insta} alt="insta" className="cursor-pointer" />
             </div>
           </div>
-          <div className="col-span-12 lg:col-span-8 md:px-8 lg:ml-auto lg:mt-4">
+          <div className="col-span-12 lg:col-span-8 md:px-8 lg:ml-auto lg:mt-6">
             <div className="flex justify-center items-center gap-x-16 md:gap-x-32">
               <div className="grid-cols-1 lg:grid-cols-3">
                 <h6
@@ -237,7 +233,7 @@ const Footer = () => {
           </div>
         </div>
         {/* divider */}
-        <div className="flex justify-center items-center mt-8 md:mt-16">
+        {/* <div className="flex justify-center items-center mt-8 md:mt-16">
           <div className="w-[90%] h-[1px] bg-[#687686]"></div>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center px-6 md:px-20">
@@ -252,7 +248,7 @@ const Footer = () => {
             <Image src={axpress} alt="fb" height={27} width={43} />
             <Image src={discover} alt="fb" height={27} width={43} />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
