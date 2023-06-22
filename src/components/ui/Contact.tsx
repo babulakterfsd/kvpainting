@@ -48,13 +48,13 @@ const Contact = () => {
                 className="text-center text-[1.1rem] font-[400] mt-1.5 lg:mt-9 lg:mb-4"
                 style={{ fontFamily: 'Manrope', lineHeight: '25px' }}
               >
-                Telephone
+                GSM nummer
               </p>
               <h5
                 className="font-[700]"
                 style={{ fontFamily: 'Trade Gothic LT Std' }}
               >
-                (03) 8770 2255 <br /> (03) 8770 2255
+                +32 491 64 21 24
               </h5>
             </div>
             <div
@@ -67,13 +67,14 @@ const Contact = () => {
                 className="text-center text-[1.1rem] font-[400] mt-1.5 lg:mt-9 lg:mb-4"
                 style={{ fontFamily: 'Manrope', lineHeight: '25px' }}
               >
-                Address
+                Adres
               </p>
               <h5
                 className="font-[700]"
                 style={{ fontFamily: 'Trade Gothic LT Std' }}
               >
-                40 Brunel Road, Seaford, <br /> Victoria 3198 Australia
+                Beukenstraat 40, <br />
+                3665 As
               </h5>
             </div>
             <div
@@ -86,13 +87,13 @@ const Contact = () => {
                 className="text-center text-[1.1rem] font-[400] mt-1.5 lg:mt-9 lg:mb-4"
                 style={{ fontFamily: 'Manrope', lineHeight: '25px' }}
               >
-                Email
+                Email adres
               </p>
               <h5
                 className="font-[700]"
                 style={{ fontFamily: 'Trade Gothic LT Std' }}
               >
-                contact@company.com
+                kieran@kvpainting.be
               </h5>
             </div>
           </div>

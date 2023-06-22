@@ -3,7 +3,7 @@
 import Navbar from '@/components/shared/Navbar';
 import About from '@/components/ui/About';
 import Banner from '@/components/ui/Banner';
-import Companies from '@/components/ui/Companies';
+// import Companies from '@/components/ui/Companies';
 import Contact from '@/components/ui/Contact';
 import Footer from '@/components/ui/Footer';
 import Projects from '@/components/ui/Projects';
@@ -35,7 +35,7 @@ export default function Home() {
       <About />
       <Services />
       <Whatwedo />
-      <Companies />
+      {/* <Companies /> */}
       <Projects />
       <Contact />
       {/* scroll to top */}

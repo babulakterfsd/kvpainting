@@ -6,8 +6,8 @@ const Banner = () => {
     <section id="bannersection" className="overflow-x-hidden">
       <div className={`${Styles.bannerbg} h-[120vh] lg:h-[200vh] xl:h-[150vh]`}>
         <div className="grid grid-cols-12 px-7 lg:px-0">
-          <div className=" flex flex-col col-span-12 lg:col-span-6 lg:col-start-3 lg:mt-72 lg:ml-16 sm:text-center lg:text-left">
-            <h1
+          <div className=" flex flex-col col-span-12 lg:col-span-6 lg:col-start-3 lg:mt-96 lg:ml-16 sm:text-center lg:text-left">
+            {/* <h1
               className="text-[1.9rem] mt-40 lg:mt-0 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500]"
               style={{
                 fontFamily: 'druk_wide_webmedium',
@@ -20,6 +20,19 @@ const Banner = () => {
                 Beautifying
               </span>{' '}
               <br /> Homes, Inside <br /> and Out!
+            </h1> */}
+            <h1
+              className="text-[1.9rem] mt-96 lg:mt-0 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500]"
+              style={{
+                fontFamily: 'druk_wide_webmedium',
+                letterSpacing: '.02em',
+              }}
+              data-aos="fade-down"
+              data-aos-duration="1500"
+            >
+              <span className={`${Styles.gradientTitle} font-medium`}>
+                Beautifying
+              </span>{' '}
             </h1>
             <p
               className="font-[500] text-[.9rem] lg-[.7rem] lg:text-[1rem] text-white my-2"
@@ -39,13 +52,18 @@ const Banner = () => {
               </span>
             </p>
 
-            <div className="w-full">
+            <div
+              className="w-full"
+              data-aos="fade-down"
+              data-aos-duration="2500"
+              data-aos-offset="1"
+            >
               <button className="bg-[rgba(251,199,2,1)] px-10 py-3 lg:py-4  text-black mt-3 font-bold w-full sm:w-[200px] lg:w-[173px]">
                 Get A Quote
               </button>
             </div>
 
-            <div
+            {/* <div
               className="mt-9 lg:mt-32 flex gap-x-4 lg:gap-x-11 justify-center lg:justify-normal"
               data-aos="fade-down"
               data-aos-duration="2500"
@@ -88,7 +106,7 @@ const Banner = () => {
                   Projects Completed
                 </h4>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
