@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { Typewriter } from 'react-simple-typewriter';
 import mobilebannerunder from '../../../public/assets/images/mobileunderbannerbg.png';
 import Styles from '../../styles/banner.module.css';
 const Banner = () => {
@@ -6,7 +7,7 @@ const Banner = () => {
     <section id="bannersection" className="overflow-x-hidden">
       <div className={`${Styles.bannerbg} h-[120vh] lg:h-[200vh] xl:h-[150vh]`}>
         <div className="grid grid-cols-12 px-7 lg:px-0">
-          <div className=" flex flex-col col-span-12 lg:col-span-6 lg:col-start-3 lg:mt-96 lg:ml-16 sm:text-center lg:text-left">
+          <div className=" flex flex-col col-span-12 lg:col-span-6 lg:col-start-3 lg:ml-16 sm:text-center lg:text-left">
             {/* <h1
               className="text-[1.9rem] mt-40 lg:mt-0 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500]"
               style={{
@@ -22,7 +23,7 @@ const Banner = () => {
               <br /> Homes, Inside <br /> and Out!
             </h1> */}
             <h1
-              className="text-[1.9rem] mt-96 lg:mt-0 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500]"
+              className="text-[1.5rem] mt-[320px] lg:mt-72 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500] h-[120px] lg:mb-2"
               style={{
                 fontFamily: 'druk_wide_webmedium',
                 letterSpacing: '.02em',
@@ -30,12 +31,37 @@ const Banner = () => {
               data-aos="fade-down"
               data-aos-duration="1500"
             >
-              <span className={`${Styles.gradientTitle} font-medium`}>
-                Beautifying
+              <span
+                className={`${Styles.gradientTitle} font-medium capitalize`}
+              >
+                Wij helpen u <br /> met
+                <span className="text-white ml-2">
+                  <Typewriter
+                    words={[
+                      'Vertalen Visies',
+                      'Transformeren Ruimtes',
+                      'Creëren Thuisgevoel',
+                      'Streven Naar Comfort',
+                      'Perfectioneren Plafonds',
+                      'Transformeren Deuren',
+                      'Verjongen Ramen',
+                      'Renoveren Trappen',
+                      'Kiezen Kwaliteit',
+                      'Garanderen Resultaten',
+                      'Zijn Gepassioneerd',
+                    ]}
+                    loop={false}
+                    cursor
+                    cursorStyle="_"
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                  />
+                </span>
               </span>{' '}
             </h1>
             <p
-              className="font-[500] text-[.9rem] lg-[.7rem] lg:text-[1rem] text-white my-2"
+              className="font-[500] text-[.9rem] lg-[.7rem] lg:text-[1rem] text-white my-2 lg:mt-16"
               style={{
                 fontFamily: 'plus_jakarta_sansregular',
                 letterSpacing: '.02rem',
@@ -58,7 +84,7 @@ const Banner = () => {
               data-aos-duration="2500"
               data-aos-offset="1"
             >
-              <button className="bg-[rgba(251,199,2,1)] px-10 py-3 lg:py-4  text-black mt-3 font-bold w-full sm:w-[200px] lg:w-[173px]">
+              <button className="bg-[rgba(251,199,2,1)] px-10 py-3 lg:py-4  text-black mt-3 lg:mt-1 font-bold w-full sm:w-[200px] lg:w-[173px]">
                 Get A Quote
               </button>
             </div>
