@@ -1,4 +1,5 @@
 import 'aos/dist/aos.css';
+import Script from 'next/script';
 import '../styles/globals.css';
 
 export const metadata = {
@@ -6,7 +7,7 @@ export const metadata = {
   description: 'KVPainting - Bringing visions to life',
 };
 
-// const ga_id = '#########';
+const ga_id = 'G-R6PYD3CQ8N';
 
 export default function RootLayout({
   children,
@@ -16,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-white text-black">
-        {/* <Script
+        <Script
           async
           src={`https://www.googletagmanager.com/gtag/js?
       id=${ga_id}`}
@@ -32,7 +33,7 @@ export default function RootLayout({
           gtag('config', '${ga_id}');
         `,
           }}
-        ></Script> */}
+        ></Script>
         {children}
       </body>
     </html>
