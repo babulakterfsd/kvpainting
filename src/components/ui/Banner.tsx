@@ -34,7 +34,7 @@ const Banner = () => {
               <span
                 className={`${Styles.gradientTitle} font-medium capitalize`}
               >
-                Wij helpen u <br /> met
+                Wij{' '}
                 <span className="text-white ml-2">
                   <Typewriter
                     words={[
