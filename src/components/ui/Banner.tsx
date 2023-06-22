@@ -84,7 +84,7 @@ const Banner = () => {
               data-aos-duration="2500"
               data-aos-offset="1"
             >
-              <button className="bg-[rgba(251,199,2,1)] px-10 py-3 lg:py-4  text-black mt-3 lg:mt-1 font-bold w-full sm:w-[200px] lg:w-[173px]">
+              <button className="bg-[rgba(251,199,2,1)] lg:px-6 py-3 lg:py-4  text-black mt-3 lg:mt-1 font-bold w-full sm:w-[200px] lg:w-[173px]">
                 Get A Quote
               </button>
             </div>
