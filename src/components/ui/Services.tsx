@@ -118,7 +118,7 @@ const Services = () => {
         data-aos-duration="1500"
         data-aos-offset="1"
       >
-        <button className="bg-black lg:px-10 py-3 lg:py-4 w-[90%] sm:w-[200px] lg:w-[260px]  text-white mt-10">
+        <button className="bg-black lg:px-10 py-4 w-[90%] sm:w-[200px] lg:w-[260px]  text-white mt-10">
           Get A Free Quote
         </button>
       </div>

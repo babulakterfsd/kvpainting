@@ -62,7 +62,7 @@ const Whatwedo = () => {
                 data-aos="fade-down"
                 data-aos-duration="1500"
               >
-                <button className="bg-black px-10 py-3 lg:py-4  text-white mt-7 w-full sm:w-[200px] lg:w-[166px]">
+                <button className="bg-black px-10 py-4  text-white mt-7 w-full sm:w-[200px] lg:w-[166px]">
                   Learn More
                 </button>
               </div>
