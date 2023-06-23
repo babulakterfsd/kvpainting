@@ -5,8 +5,8 @@ import Styles from '../../styles/banner.module.css';
 const Banner = () => {
   return (
     <section id="bannersection" className="overflow-x-hidden">
-      <div className={`${Styles.bannerbg} -mt-48 sm:mt-0`}>
-        <div className="grid grid-cols-12 px-7 lg:px-0 pb-8 sm:pb-20">
+      <div className={`${Styles.bannerbg}`}>
+        <div className="grid grid-cols-12 px-7 lg:px-0 sm:pb-20">
           <div className=" flex flex-col col-span-12 lg:col-span-8 lg:col-start-3 lg:ml-16 sm:text-center lg:text-left">
             {/* <h1
               className="text-[1.9rem] mt-40 lg:mt-0 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500]"
@@ -23,7 +23,7 @@ const Banner = () => {
               <br /> Homes, Inside <br /> and Out
             </h1> */}
             <h1
-              className="text-[1.5rem] mt-80 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500] h-[120px]"
+              className="text-[1.5rem] mt-40 lg:mt-80 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500] h-[120px]"
               style={{
                 fontFamily: 'druk_wide_webmedium',
                 letterSpacing: '.02em',
@@ -40,7 +40,6 @@ const Banner = () => {
                     words={[
                       'Vertalen Visies',
                       'Transformeren Ruimtes',
-                      'Creëren Thuisgevoel',
                       'Streven Naar Comfort',
                       'Perfectioneren Plafonds',
                       'Transformeren Deuren',
@@ -79,7 +78,7 @@ const Banner = () => {
               data-aos-duration="2500"
               data-aos-offset="1"
             >
-              <button className="bg-[rgba(251,199,2,1)] lg:px-6 py-3 lg:py-4  text-black mt-3 lg:mt-1 font-bold w-full sm:w-[200px]">
+              <button className="bg-[rgba(251,199,2,1)] lg:px-6 py-4  text-black mt-3 lg:mt-1 font-bold w-full sm:w-[200px]">
                 Get A Quote
               </button>
             </div>
@@ -134,7 +133,7 @@ const Banner = () => {
       <Image
         src={mobilebannerunder}
         alt="mobilebannerunder"
-        className="sm:hidden w-full -mt-48 object-fill"
+        className="hidden w-full -mt-48 object-fill"
       />
     </section>
   );

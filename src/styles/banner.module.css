@@ -10,10 +10,11 @@
 @media screen and (max-width: 639.5px) {
   .bannerbg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-      url('../../public/assets/images/mobilebannerbg.png');
+      url('../../public/assets/images/bannerbg.png');
     /* background-position: bottom center; */
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    height: 100vh;
   }
 }
 
