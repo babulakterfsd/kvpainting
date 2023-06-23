@@ -22,4 +22,8 @@
   }
 
   
-  
+  @media screen and (max-width: 639.5px) {
+    .mobnavtransparent {
+      /* background-color: #272826 !important; */
+    }
+  }

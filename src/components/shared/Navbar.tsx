@@ -34,7 +34,7 @@ function Nav() {
         windowHeight
           ? 'fixed top-0 bg-[rgba(255,255,255,1)] text-black shadow-2xl'
           : 'absolute top-0 text-white'
-      } z-50 w-full overflow-x-hidden`}
+      } z-50 w-full overflow-x-hidden ${Styles.mobnavtransparent}`}
     >
       <nav
         className={` ${
@@ -228,7 +228,9 @@ function Nav() {
           </div>
         </div>
         {/* mobile */}
-        <div className="w-full px-0.5 md:w-auto block lg:hidden">
+        <div
+          className={` ${Styles.mobnavtransparent} w-full px-0.5 md:w-auto block lg:hidden `}
+        >
           <ul
             className={`${
               isOpen ? 'block' : 'hidden'
