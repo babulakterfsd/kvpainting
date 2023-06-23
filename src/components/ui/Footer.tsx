@@ -1,10 +1,18 @@
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
+import scrollToElement from 'scroll-to-element';
 import fb from '../../../public/assets/images/fby.png';
 import insta from '../../../public/assets/images/instay.png';
 import logo from '../../../public/assets/images/logo.png';
 import twitter from '../../../public/assets/images/twittery.png';
 
 const Footer = () => {
+  const router = useRouter();
+
+  const scrollTo = (selector: any) => {
+    scrollToElement(selector, { offset: 0, ease: 'linear', duration: 500 });
+  };
+
   return (
     <section
       id="footersection"
@@ -19,24 +27,38 @@ const Footer = () => {
                 alt="logo"
                 height={158}
                 width={166}
-                className="hidden lg:block"
+                className="hidden lg:block cursor-pointer"
+                onClick={() => router.push('/')}
               />
               <Image
                 src={logo}
                 alt="logo"
                 height={128}
                 width={136}
-                className="block lg:hidden"
+                className="block lg:hidden cursor-auto"
+                onClick={() => router.push('/')}
               />
             </div>
             <div className="socialmediaicons flex gap-x-3">
-              <Image src={fb} alt="fb" className="cursor-pointer" />
-              <Image src={twitter} alt="twitter" className="cursor-pointer" />
-              <Image src={insta} alt="insta" className="cursor-pointer" />
+              <Image
+                src={fb}
+                alt="fb"
+                className="cursor-pointer hover:scale-110 duration-300 transition-all"
+              />
+              <Image
+                src={twitter}
+                alt="twitter"
+                className="cursor-pointer  hover:scale-110 duration-300 transition-all"
+              />
+              <Image
+                src={insta}
+                alt="insta"
+                className="cursor-pointer  hover:scale-110 duration-300 transition-all"
+              />
             </div>
           </div>
           <div className="col-span-12 lg:col-span-8 md:px-8 lg:ml-auto lg:mt-6">
-            <div className="flex justify-center items-center gap-x-16 md:gap-x-32">
+            <div className="flex justify-center items-start gap-x-16 md:gap-x-32">
               <div className="grid-cols-1 lg:grid-cols-3">
                 <h6
                   className="text-center mb-2 lg:mb-5 text-xl lg:text-2xl font-[700]"
@@ -55,6 +77,8 @@ const Footer = () => {
                       fontWeight: 300,
                       color: 'rgba(134, 140, 152, 1)',
                     }}
+                    onClick={() => scrollTo('#servicessection')}
+                    className="cursor-pointer"
                   >
                     Our Services
                   </span>
@@ -65,17 +89,8 @@ const Footer = () => {
                       fontWeight: 300,
                       color: 'rgba(134, 140, 152, 1)',
                     }}
-                  >
-                    Home
-                  </span>
-
-                  <span
-                    style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
-                      fontWeight: 300,
-                      color: 'rgba(134, 140, 152, 1)',
-                    }}
+                    onClick={() => scrollTo('#contactsection')}
+                    className="cursor-pointer"
                   >
                     Contact
                   </span>
@@ -86,6 +101,8 @@ const Footer = () => {
                       fontWeight: 300,
                       color: 'rgba(134, 140, 152, 1)',
                     }}
+                    onClick={() => scrollTo('#whatwedosection')}
+                    className="cursor-pointer"
                   >
                     Projects
                   </span>
@@ -96,12 +113,26 @@ const Footer = () => {
                       fontWeight: 300,
                       color: 'rgba(134, 140, 152, 1)',
                     }}
+                    onClick={() => scrollTo('#aboutsection')}
+                    className="cursor-pointer"
                   >
                     About
                   </span>
+                  <span
+                    style={{
+                      fontFamily: 'Manrope',
+                      letterSpacing: '2%',
+                      fontWeight: 300,
+                      color: 'rgba(134, 140, 152, 1)',
+                    }}
+                    onClick={() => router.push('/')}
+                    className="cursor-pointer"
+                  >
+                    Home
+                  </span>
                 </div>
               </div>
-              <div className="grid-cols-1 lg:grid-cols-3 hidden sm:block">
+              {/* <div className="grid-cols-1 lg:grid-cols-3 hidden sm:block">
                 <h6
                   className="text-center mb-1 md:mb-5 text-2xl font-[700]"
                   style={{
@@ -163,7 +194,7 @@ const Footer = () => {
                     Track Order
                   </span>
                 </div>
-              </div>
+              </div> */}
               <div className="grid-cols-1 lg:grid-cols-3">
                 <h6
                   className="text-center mb-2 md:mb-5 text-xl lg:text-2xl font-[700]"
@@ -175,7 +206,7 @@ const Footer = () => {
                   Policies
                 </h6>
                 <div className="flex flex-col gap-y-1.5 md:gap-y-3 text-center text-sm">
-                  <span
+                  {/* <span
                     style={{
                       fontFamily: 'Manrope',
                       letterSpacing: '2%',
@@ -184,7 +215,7 @@ const Footer = () => {
                     }}
                   >
                     Customer Support
-                  </span>
+                  </span> */}
                   <span
                     style={{
                       fontFamily: 'Manrope',
@@ -192,10 +223,11 @@ const Footer = () => {
                       fontWeight: 300,
                       color: 'rgba(134, 140, 152, 1)',
                     }}
+                    className="cursor-pointer"
                   >
                     Privacy Policy
                   </span>
-                  <span
+                  {/* <span
                     style={{
                       fontFamily: 'Manrope',
                       letterSpacing: '2%',
@@ -204,8 +236,8 @@ const Footer = () => {
                     }}
                   >
                     Refund Policy
-                  </span>
-                  <span
+                  </span> */}
+                  {/* <span
                     className="lg:hidden xl:block"
                     style={{
                       fontFamily: 'Manrope',
@@ -215,9 +247,9 @@ const Footer = () => {
                     }}
                   >
                     Shipping Policy
-                  </span>
+                  </span> */}
                   <span
-                    className="lg:hidden xl:block"
+                    className="lg:hidden xl:block cursor-pointer"
                     style={{
                       fontFamily: 'Manrope',
                       letterSpacing: '2%',
