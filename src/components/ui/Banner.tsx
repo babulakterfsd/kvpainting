@@ -20,7 +20,7 @@ const Banner = () => {
               <span className={`${Styles.gradientTitle} font-medium`}>
                 Beautifying
               </span>{' '}
-              <br /> Homes, Inside <br /> and Out!
+              <br /> Homes, Inside <br /> and Out
             </h1> */}
             <h1
               className="text-[1.5rem] mt-80 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500] h-[120px]"
