@@ -5,8 +5,8 @@ import Styles from '../../styles/banner.module.css';
 const Banner = () => {
   return (
     <section id="bannersection" className="overflow-x-hidden">
-      <div className={`${Styles.bannerbg} h-[120vh] lg:h-[200vh] xl:h-[150vh]`}>
-        <div className="grid grid-cols-12 px-7 lg:px-0">
+      <div className={`${Styles.bannerbg}`}>
+        <div className="grid grid-cols-12 px-7 lg:px-0 sm:pb-12">
           <div className=" flex flex-col col-span-12 lg:col-span-8 lg:col-start-3 lg:ml-16 sm:text-center lg:text-left">
             {/* <h1
               className="text-[1.9rem] mt-40 lg:mt-0 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500]"
@@ -134,7 +134,7 @@ const Banner = () => {
       <Image
         src={mobilebannerunder}
         alt="mobilebannerunder"
-        className="hidden"
+        className="sm:hidden w-full"
       />
     </section>
   );
