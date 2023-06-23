@@ -182,7 +182,7 @@ function Nav() {
                   </a>
                 </li>
                 {/* companies */}
-                <li onClick={() => scrollTo('#companiessection')}>
+                {/* <li onClick={() => scrollTo('#companiessection')}>
                   <a
                     href="#companiessection"
                     className={`${Styles.hanimation} block py-2 text-sm font-[400] `}
@@ -194,7 +194,7 @@ function Nav() {
                   >
                     COMPANIES
                   </a>
-                </li>
+                </li> */}
                 {/* projects */}
                 <li onClick={() => scrollTo('#projectssection')}>
                   <a
@@ -295,7 +295,7 @@ function Nav() {
               </a>
             </li>
             {/* companies */}
-            <li
+            {/* <li
               onClick={() => {
                 scrollTo('#companiessection');
                 setIsOpen(false);
@@ -313,7 +313,7 @@ function Nav() {
               >
                 COMPANIES
               </a>
-            </li>
+            </li> */}
             {/* projects */}
             <li
               onClick={() => {
