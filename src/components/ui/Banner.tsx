@@ -23,7 +23,7 @@ const Banner = () => {
               <br /> Homes, Inside <br /> and Out!
             </h1> */}
             <h1
-              className="text-[1.5rem] mt-[280px] lg:mt-[350px] lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500] h-[120px]"
+              className="text-[1.5rem] mt-[370px] lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500] h-[120px]"
               style={{
                 fontFamily: 'druk_wide_webmedium',
                 letterSpacing: '.02em',
@@ -69,13 +69,8 @@ const Banner = () => {
               data-aos="fade-down"
               data-aos-duration="2000"
             >
-              Home painting is an art that breathes life into dull walls.
-              Skilled painters transform spaces with brushstrokes, colors, and
-              passion. From surface preparation.{' '}
-              <span className="lg:hidden">
-                {' '}
-                to final touch, every step is meticulous.
-              </span>
+              Laat uw muren het verhaal vertellen. <br /> Wij schilderen met
+              passie en precisie.
             </p>
 
             <div
@@ -84,7 +79,7 @@ const Banner = () => {
               data-aos-duration="2500"
               data-aos-offset="1"
             >
-              <button className="bg-[rgba(251,199,2,1)] lg:px-6 py-3 lg:py-4  text-black mt-3 lg:mt-1 font-bold w-full sm:w-[200px] lg:w-[173px]">
+              <button className="bg-[rgba(251,199,2,1)] lg:px-6 py-3 lg:py-4  text-black mt-3 lg:mt-1 font-bold w-full sm:w-[200px]">
                 Get A Quote
               </button>
             </div>
