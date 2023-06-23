@@ -7,7 +7,7 @@ const Banner = () => {
     <section id="bannersection" className="overflow-x-hidden">
       <div className={`${Styles.bannerbg} h-[120vh] lg:h-[200vh] xl:h-[150vh]`}>
         <div className="grid grid-cols-12 px-7 lg:px-0">
-          <div className=" flex flex-col col-span-12 lg:col-span-6 lg:col-start-3 lg:ml-16 sm:text-center lg:text-left">
+          <div className=" flex flex-col col-span-12 lg:col-span-8 lg:col-start-3 lg:ml-16 sm:text-center lg:text-left">
             {/* <h1
               className="text-[1.9rem] mt-40 lg:mt-0 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500]"
               style={{
@@ -23,7 +23,7 @@ const Banner = () => {
               <br /> Homes, Inside <br /> and Out!
             </h1> */}
             <h1
-              className="text-[1.5rem] mt-[320px] lg:mt-72 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500] h-[120px] lg:mb-2"
+              className="text-[1.5rem] mt-[280px] lg:mt-[350px] lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500] h-[120px]"
               style={{
                 fontFamily: 'druk_wide_webmedium',
                 letterSpacing: '.02em',
@@ -35,7 +35,7 @@ const Banner = () => {
                 className={`${Styles.gradientTitle} font-medium capitalize`}
               >
                 Wij{' '}
-                <span className="text-white ml-2">
+                <span className="text-white ml-0.5">
                   <Typewriter
                     words={[
                       'Vertalen Visies',
@@ -61,7 +61,7 @@ const Banner = () => {
               </span>{' '}
             </h1>
             <p
-              className="font-[500] text-[.9rem] lg-[.7rem] lg:text-[1rem] text-white my-2 lg:mt-16"
+              className="font-[500] text-[1rem] lg-[.7rem] lg:text-[1rem] text-white my-1 lg:mt-3"
               style={{
                 fontFamily: 'plus_jakarta_sansregular',
                 letterSpacing: '.02rem',
