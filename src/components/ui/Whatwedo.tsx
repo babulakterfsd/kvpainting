@@ -1,6 +1,3 @@
-import Image from 'next/image';
-import whatwedoimage from '../../../public/assets/images/whatwedo.png';
-
 const Whatwedo = () => {
   return (
     <section
@@ -73,7 +70,11 @@ const Whatwedo = () => {
             data-aos="fade-down"
             data-aos-duration="2500"
           >
-            <Image src={whatwedoimage} alt="What We Do" />
+            {/* <Image src={whatwedoimage} alt="What We Do" /> */}
+            <video autoPlay loop muted>
+              <source src="/whatewedo.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
