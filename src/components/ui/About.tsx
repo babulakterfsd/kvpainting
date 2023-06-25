@@ -19,15 +19,15 @@ const About = () => {
           data-aos="fade-down"
           data-aos-duration="2500"
         >
-          ABOUT US
+          OVER ONS
         </h3>
         <h2
           className={`${Styles.maintitle} text-4xl font-[500] text-center mt-4 lg:mt-6 lg:mb-14 lg:leading-[49px] `}
           data-aos="fade-down"
           data-aos-duration="1500"
         >
-          Transforming <br className="lg:hidden" /> Homes with <br /> Expert
-          Painting and Restoration Services
+          Transformeer Je Huis met Onze Inspirerende Schilder- en
+          Restauratiediensten
         </h2>
         {/* about text and photo container */}
         <div
@@ -44,21 +44,23 @@ const About = () => {
                 lineHeight: '24px',
               }}
             >
-              Home painting is an art that breathes life into dull walls.
-              Skilled painters transform spaces with brushstrokes, colors, and
-              passion. From surface preparation to final touch, every step is
-              meticulous. Colors evoke moods; pastels calm, bold hues energize.
-              Each stroke layers paint.
+              Ons verhaal begint met een passie voor schilder- en
+              renovatiewerken. We geloven in de kracht van kleur om uw huis te
+              transformeren. Of het nu gaat om buitenmuren of binnenmuren, we
+              zetten ons in om elk detail nieuw leven in te blazen met
+              hoogwaardige afwerking en topkwaliteit materialen. We bouwen
+              relaties op met onze klanten, begrijpen hun visie en vertalen deze
+              naar een prachtig eindresultaat. Kies voor onze professionele
+              schilder- en renovatiediensten en ervaar het verschil.
               <span className="mt-2 block">
                 {' '}
-                Home painting is creativity unleashed, turning houses into
-                masterpieces. Invest in joy, comfort, and pride. Let colors
-                speak, walls sing, art alive.
+                We willen niet enkel voldoen aan uw verwachtingen, we willen ze
+                overtreffen.
               </span>
             </p>
             <div className="w-full sm:text-center lg:text-left">
-              <button className="bg-[rgba(251,199,2,1)] px-10 py-4  text-black mt-6 lg:mt-10 font-bold w-full sm:w-[200px] lg:w-[173px]">
-                Get A Quote
+              <button className="bg-[rgba(251,199,2,1)] px-10 py-4  text-black mt-6 lg:mt-10 font-bold w-full sm:w-[240px]">
+                Vraag uw offerte aan
               </button>
             </div>
           </div>
@@ -66,7 +68,7 @@ const About = () => {
             <Image
               src={AboutPhoto}
               alt="About Photo"
-              height={416}
+              height={570}
               width={570}
               className="object-cover my-6 lg:my-0 transition-all duration-500 ease-in-out transform hover:scale-150"
             />
