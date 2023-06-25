@@ -62,13 +62,13 @@ const About = () => {
               </button>
             </div>
           </div>
-          <div className="order-first lg:order-2">
+          <div className="order-first lg:order-2 overflow-hidden">
             <Image
               src={AboutPhoto}
               alt="About Photo"
               height={416}
               width={570}
-              className="object-cover my-6 lg:my-0"
+              className="object-cover my-6 lg:my-0 transition-all duration-500 ease-in-out transform hover:scale-150"
             />
           </div>
         </div>
