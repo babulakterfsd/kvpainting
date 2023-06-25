@@ -6,10 +6,7 @@ import restoration from '../../../public/assets/images/service-restoration.png';
 
 const Services = () => {
   return (
-    <section
-      id="servicessection"
-      className="lg:py-28 mt-32 lg:mt-0 overflow-x-hidden"
-    >
+    <section id="service" className="lg:py-28 mt-32 lg:mt-0 overflow-x-hidden">
       <h3
         className=" font-[400] text-center text-base lg:text-[1.3rem] px-7 lg:px-0"
         style={{

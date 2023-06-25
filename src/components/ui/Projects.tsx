@@ -2,7 +2,7 @@ import ImageSlider from '../shared/Splider';
 const Projects = () => {
   return (
     <section
-      id="projectssection"
+      id="projects"
       className="py-20 lg:py-28 grid grid-cols-12 overflow-x-hidden"
     >
       <div className="col-span-12 lg:col-span-8 lg:col-start-3">

@@ -42,7 +42,7 @@ function Nav() {
         } sm:px-6 md:px-12`}
       >
         <div className="grid grid-cols-12">
-          <div className="lg:col-start-3 lg:col-span-8 col-span-12 flex justify-between lg:gap-x-6 xl:gap-x-36 items-center">
+          <div className="lg:col-start-3 col-span-12 flex justify-between lg:gap-x-6 xl:gap-x-36 items-center">
             {/* desktop logo */}
             {windowHeight ? (
               <Image
@@ -136,12 +136,9 @@ function Nav() {
             >
               <ul className="flex flex-col items-center mt-4 lg:flex-row lg:space-x-7 md:mt-0 text-base md:text-xl  md:font-medium text-main-white">
                 {/* about */}
-                <li
-                  onClick={() => scrollTo('#aboutsection')}
-                  className="relative"
-                >
+                <li onClick={() => scrollTo('#home')} className="relative">
                   <a
-                    href="#aboutsection"
+                    href="#home"
                     aria-current="page"
                     className={`${Styles.hanimation} block py-2 text-sm font-[400] `}
                     style={{
@@ -150,21 +147,21 @@ function Nav() {
                       lineHeight: '22px',
                     }}
                   >
-                    ABOUT
+                    HOME
                   </a>
                 </li>
                 {/* services */}
-                <li onClick={() => scrollTo('#servicessection')}>
+                <li onClick={() => scrollTo('#service')}>
                   <a
-                    href="#servicessection"
-                    className={`${Styles.hanimation} block py-2 text-sm font-[400] `}
+                    href="#service"
+                    className={`${Styles.hanimation} block py-2 text-sm font-[400]`}
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
                       letterSpacing: '.1em',
                       lineHeight: '22px',
                     }}
                   >
-                    SERVICES
+                    ONZE DIENSTEN
                   </a>
                 </li>
                 {/* what we do  */}
@@ -196,9 +193,9 @@ function Nav() {
                   </a>
                 </li> */}
                 {/* projects */}
-                <li onClick={() => scrollTo('#projectssection')}>
+                <li onClick={() => scrollTo('#projects')}>
                   <a
-                    href="#projectssection"
+                    href="#projects"
                     className={`${Styles.hanimation} block py-2 text-sm font-[400] `}
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
@@ -206,7 +203,7 @@ function Nav() {
                       lineHeight: '22px',
                     }}
                   >
-                    PROJECTS
+                    PROJECTEN
                   </a>
                 </li>
                 {/* contact */}
@@ -239,12 +236,12 @@ function Nav() {
             {/* about */}
             <li
               onClick={() => {
-                scrollTo('#aboutsection');
+                scrollTo('#home');
                 setIsOpen(false);
               }}
             >
               <a
-                href="#aboutsection"
+                href="#home"
                 className="block py-2 text-sm font-[400]"
                 aria-current="page"
                 style={{
@@ -253,18 +250,18 @@ function Nav() {
                   lineHeight: '22px',
                 }}
               >
-                ABOUT
+                HOME
               </a>
             </li>
             {/* services */}
             <li
               onClick={() => {
-                scrollTo('#servicesssection');
+                scrollTo('#service');
                 setIsOpen(false);
               }}
             >
               <a
-                href="#servicessection"
+                href="#service"
                 className="block py-2 text-sm font-[400]"
                 aria-current="page"
                 style={{
@@ -273,7 +270,7 @@ function Nav() {
                   lineHeight: '22px',
                 }}
               >
-                SERVICES
+                ONZE DIENSTEN
               </a>
             </li>
             {/* what we do  */}
@@ -319,12 +316,12 @@ function Nav() {
             {/* projects */}
             <li
               onClick={() => {
-                scrollTo('#projectssection');
+                scrollTo('#projects');
                 setIsOpen(false);
               }}
             >
               <a
-                href="#projectssection"
+                href="#projects"
                 className="block py-2 text-sm font-[400]"
                 aria-current="page"
                 style={{
@@ -333,7 +330,7 @@ function Nav() {
                   lineHeight: '22px',
                 }}
               >
-                PROJECTS
+                PROJECTEN
               </a>
             </li>
             {/* contact */}

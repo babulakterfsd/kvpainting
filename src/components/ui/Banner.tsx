@@ -4,7 +4,7 @@ import mobilebannerunder from '../../../public/assets/images/mobileunderbannerbg
 import Styles from '../../styles/banner.module.css';
 const Banner = () => {
   return (
-    <section id="bannersection" className="overflow-x-hidden">
+    <section id="home" className="overflow-x-hidden">
       <div className={`${Styles.bannerbg}`}>
         <div className="grid grid-cols-12 px-7 lg:px-0 sm:pb-20">
           <div className=" flex flex-col col-span-12 lg:col-span-8 lg:col-start-3 lg:ml-16 sm:text-center lg:text-left sm:pb-2 md:pb-12 lg:pb-16">
