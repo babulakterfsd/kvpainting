@@ -24,14 +24,11 @@ const Contact = () => {
                 letterSpacing: '2%',
               }}
             >
-              Making Your <br className="lg:hidden" /> Dream{' '}
-              <br className="hidden lg:block" /> Home a{' '}
-              <br className="lg:hidden" /> Colorful <br className=" lg:block" />{' '}
-              Reality
+              Klaar Om <br /> Je Droomhuis <br /> Kleurrijk Te Maken?
             </h2>
             <div className="w-42 mt-2.5 lg:mt-6 lg:pb-14 lg:pl-20 text-center lg:text-left">
               <button className="bg-black px-10 py-4 text-white">
-                Let's Get Started
+                Start nu! (coming soon)
               </button>
             </div>
           </div>
@@ -51,7 +48,7 @@ const Contact = () => {
                 GSM nummer
               </p>
               <h5
-                className="font-[700]"
+                className="font-[700] text-[27px]"
                 style={{ fontFamily: 'Trade Gothic LT Std' }}
               >
                 +32 491 64 21 24
@@ -70,7 +67,7 @@ const Contact = () => {
                 Adres
               </p>
               <h5
-                className="font-[700]"
+                className="font-[700] text-[27px]"
                 style={{ fontFamily: 'Trade Gothic LT Std' }}
               >
                 Beukenstraat 40, <br />
@@ -90,7 +87,7 @@ const Contact = () => {
                 Email adres
               </p>
               <h5
-                className="font-[700]"
+                className="font-[700] text-[27px]"
                 style={{ fontFamily: 'Trade Gothic LT Std' }}
               >
                 kieran@kvpainting.be
