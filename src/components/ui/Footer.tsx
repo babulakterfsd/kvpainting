@@ -77,10 +77,34 @@ const Footer = () => {
                       fontWeight: 300,
                       color: 'rgba(134, 140, 152, 1)',
                     }}
-                    onClick={() => scrollTo('#servicessection')}
+                    onClick={() => router.push('/')}
+                    className="cursor-pointer uppercase"
+                  >
+                    Home
+                  </span>
+                  <span
+                    style={{
+                      fontFamily: 'Manrope',
+                      letterSpacing: '2%',
+                      fontWeight: 300,
+                      color: 'rgba(134, 140, 152, 1)',
+                    }}
+                    onClick={() => scrollTo('#service')}
                     className="cursor-pointer"
                   >
-                    Our Services
+                    ONZE DIENSTEN
+                  </span>
+                  <span
+                    style={{
+                      fontFamily: 'Manrope',
+                      letterSpacing: '2%',
+                      fontWeight: 300,
+                      color: 'rgba(134, 140, 152, 1)',
+                    }}
+                    onClick={() => scrollTo('#projects')}
+                    className="cursor-pointer"
+                  >
+                    PROJECTEN
                   </span>
                   <span
                     style={{
@@ -90,45 +114,9 @@ const Footer = () => {
                       color: 'rgba(134, 140, 152, 1)',
                     }}
                     onClick={() => scrollTo('#contactsection')}
-                    className="cursor-pointer"
+                    className="cursor-pointer uppercase"
                   >
                     Contact
-                  </span>
-                  <span
-                    style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
-                      fontWeight: 300,
-                      color: 'rgba(134, 140, 152, 1)',
-                    }}
-                    onClick={() => scrollTo('#whatwedosection')}
-                    className="cursor-pointer"
-                  >
-                    Projects
-                  </span>
-                  <span
-                    style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
-                      fontWeight: 300,
-                      color: 'rgba(134, 140, 152, 1)',
-                    }}
-                    onClick={() => scrollTo('#aboutsection')}
-                    className="cursor-pointer"
-                  >
-                    About
-                  </span>
-                  <span
-                    style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
-                      fontWeight: 300,
-                      color: 'rgba(134, 140, 152, 1)',
-                    }}
-                    onClick={() => router.push('/')}
-                    className="cursor-pointer"
-                  >
-                    Home
                   </span>
                 </div>
               </div>
@@ -223,9 +211,9 @@ const Footer = () => {
                       fontWeight: 300,
                       color: 'rgba(134, 140, 152, 1)',
                     }}
-                    className="cursor-pointer"
+                    className="cursor-pointer uppercase"
                   >
-                    Privacy Policy
+                    Privacy Belied
                   </span>
                   {/* <span
                     style={{
@@ -257,7 +245,7 @@ const Footer = () => {
                       color: 'rgba(134, 140, 152, 1)',
                     }}
                   >
-                    Terms & Conditions
+                    ALGEMENE VOORWAARDEN
                   </span>
                 </div>
               </div>
