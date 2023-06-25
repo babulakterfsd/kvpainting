@@ -67,7 +67,7 @@ const Contact = () => {
                 Adres
               </p>
               <h5
-                className="font-[700] text-[27px]"
+                className="font-[700] text-[27px] "
                 style={{ fontFamily: 'Trade Gothic LT Std' }}
               >
                 Beukenstraat 40, <br />
@@ -87,7 +87,7 @@ const Contact = () => {
                 Email adres
               </p>
               <h5
-                className="font-[700] text-[27px]"
+                className="font-[700] text-[27px] "
                 style={{ fontFamily: 'Trade Gothic LT Std' }}
               >
                 kieran@kvpainting.be
