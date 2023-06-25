@@ -76,7 +76,7 @@ const Banner = () => {
               data-aos-duration="2500"
               data-aos-offset="1"
             >
-              <button className="bg-[rgba(251,199,2,1)] lg:px-6 py-4  text-black mt-3 lg:mt-1 font-bold w-full sm:w-[220px]">
+              <button className="bg-[rgba(251,199,2,1)] lg:px-6 py-4  text-black mt-3 lg:mt-1 font-bold w-full sm:w-[220px] capitalize">
                 Vraag uw offerte aan
               </button>
             </div>

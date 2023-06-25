@@ -8,7 +8,7 @@ const Whatwedo = () => {
         <div className="grid sm:flex justify-center items-center flex-col lg:grid grid-cols-1 lg:grid-cols-2 lg:gap-x-14">
           <div className="textcontainer">
             <h3
-              className=" font-[400] text-base lg:text-[1.3rem] sm:text-center lg:text-left"
+              className=" font-[400] text-base lg:text-[1.3rem] sm:text-center lg:text-left capitalize"
               style={{
                 fontFamily: 'plus_jakarta_sansregular',
                 letterSpacing: '.4rem',
@@ -17,7 +17,7 @@ const Whatwedo = () => {
               data-aos="fade-down"
               data-aos-duration="2500"
             >
-              WHAT WE DO
+              Wat we doen
             </h3>
             <h2
               className="text-4xl lg:text-6xl font-[400] mt-4 mb-4 lg:mb-6 text-uppercase leading-[38px] lg:leading-[61px] sm:text-center lg:text-left"
@@ -28,7 +28,7 @@ const Whatwedo = () => {
               data-aos="fade-down"
               data-aos-duration="1500"
             >
-              We work for Your Home a Colorful Reality
+              met perfectie komt resultaat
             </h2>
             <div className="">
               <p
@@ -41,18 +41,10 @@ const Whatwedo = () => {
                 data-aos="fade-down"
                 data-aos-duration="1500"
               >
-                Home painting is an art that breathes life into dull walls.
-                Skilled painters transform spaces with brushstrokes, colors, and
-                passion. From surface preparation to final touch, every step is
-                meticulous. Colors evoke moods.
-                <span className="block mt-0.5 lg:hidden">
-                  <br />
-                  Home painting is an art that breathes life into dull walls.
-                  Skilled painters transform spaces with brushstrokes, colors,
-                  and passion. From surface preparation to final touch, every
-                  step is meticulous. Colors evoke moods; pastels calm, bold
-                  hues energize. Each stroke layers paint.
-                </span>
+                Met een passie voor schilder- en renovatiewerken, transformeren
+                we de buiten- en binnenkant van uw huis. We streven naar een
+                hoogwaardige afwerking met de beste materialen, om een
+                comfortabele en aantrekkelijke ruimte te creëren.
               </p>
               <div
                 className="w-full sm:text-center lg:text-left"
@@ -60,7 +52,7 @@ const Whatwedo = () => {
                 data-aos-duration="1500"
               >
                 <button className="bg-black px-10 py-4  text-white mt-7 w-full sm:w-[200px] lg:w-[166px]">
-                  Learn More
+                  Meer info
                 </button>
               </div>
             </div>

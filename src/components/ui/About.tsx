@@ -59,7 +59,7 @@ const About = () => {
               </span>
             </p>
             <div className="w-full sm:text-center lg:text-left">
-              <button className="bg-[rgba(251,199,2,1)] px-10 py-4  text-black mt-6 lg:mt-10 font-bold w-full sm:w-[240px]">
+              <button className="bg-[rgba(251,199,2,1)] px-10 py-4  text-black mt-6 lg:mt-10 font-bold w-full sm:w-[250px] capitalize">
                 Vraag uw offerte aan
               </button>
             </div>
