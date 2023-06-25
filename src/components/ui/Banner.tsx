@@ -7,7 +7,7 @@ const Banner = () => {
     <section id="bannersection" className="overflow-x-hidden">
       <div className={`${Styles.bannerbg}`}>
         <div className="grid grid-cols-12 px-7 lg:px-0 sm:pb-20">
-          <div className=" flex flex-col col-span-12 lg:col-span-8 lg:col-start-3 lg:ml-16 sm:text-center lg:text-left sm:pb-2 xl:pb-0">
+          <div className=" flex flex-col col-span-12 lg:col-span-8 lg:col-start-3 lg:ml-16 sm:text-center lg:text-left sm:pb-2 md:pb-12 lg:pb-16">
             {/* <h1
               className="text-[1.9rem] mt-40 lg:mt-0 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500]"
               style={{
@@ -23,7 +23,7 @@ const Banner = () => {
               <br /> Homes, Inside <br /> and Out
             </h1> */}
             <h1
-              className="text-[1.5rem] mt-40 lg:mt-80 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500] h-[120px] sm:h-[160px] xl:h-[120px]"
+              className="text-[1.7rem] md:text-[1.9rem] mt-40 md:mt-28 lg:mt-56 lg:text-5xl text-white leading-[32px] lg:leading-[62px] font-[500] h-[120px] sm:h-[190px] xl:h-[150px]"
               style={{
                 fontFamily: 'druk_wide_webmedium',
                 letterSpacing: '.02em',
@@ -32,7 +32,7 @@ const Banner = () => {
               data-aos-duration="1500"
             >
               <span className={`text-white font-medium capitalize`}>
-                Wij{' '}
+                Wij <br />
                 <span className={`${Styles.gradientTitle} ml-0.5 `}>
                   <Typewriter
                     words={[
