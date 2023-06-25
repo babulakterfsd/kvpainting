@@ -31,11 +31,9 @@ const Banner = () => {
               data-aos="fade-down"
               data-aos-duration="1500"
             >
-              <span
-                className={`${Styles.gradientTitle} font-medium capitalize`}
-              >
+              <span className={`text-white font-medium capitalize`}>
                 Wij{' '}
-                <span className="text-white ml-0.5">
+                <span className={`${Styles.gradientTitle} ml-0.5 `}>
                   <Typewriter
                     words={[
                       'Vertalen Visies',
