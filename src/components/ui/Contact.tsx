@@ -48,7 +48,7 @@ const Contact = () => {
                 GSM nummer
               </p>
               <h5
-                className="font-[700] text-[27px]"
+                className="font-[700] text-[22px]  uppercase"
                 style={{ fontFamily: 'Trade Gothic LT Std' }}
               >
                 +32 491 64 21 24
@@ -67,11 +67,10 @@ const Contact = () => {
                 Adres
               </p>
               <h5
-                className="font-[700] text-[27px] "
+                className="font-[700] text-[22px]  uppercase"
                 style={{ fontFamily: 'Trade Gothic LT Std' }}
               >
-                Beukenstraat 40, <br />
-                3665 As
+                Beukenstraat 40, <br /> 3665 As
               </h5>
             </div>
             <div
@@ -87,7 +86,7 @@ const Contact = () => {
                 Email adres
               </p>
               <h5
-                className="font-[700] text-[27px] "
+                className="font-[700] text-[22px]  uppercase"
                 style={{ fontFamily: 'Trade Gothic LT Std' }}
               >
                 kieran@kvpainting.be
