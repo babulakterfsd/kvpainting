@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1023.5px) {
   .contactbg {
-    background-image: url('../../public/assets/images/mobilecontactbg.png');
+    background-image: url('../../public/assets/images/webp/brush.webp');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
