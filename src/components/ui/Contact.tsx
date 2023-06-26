@@ -1,10 +1,25 @@
-import Image from 'next/image';
-import email from '../../../public/assets/images/contact-email.png';
-import location from '../../../public/assets/images/contact-location.png';
-import telephone from '../../../public/assets/images/contact-telephone.png';
+'use client';
+import { useState } from 'react';
 import Styles from '../../styles/contact.module.css';
 
 const Contact = () => {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (e: any) => {
+    e.preventDefault();
+    const data = {
+      name,
+      email,
+      message,
+    };
+    alert('message sent');
+    setName('');
+    setEmail('');
+    setMessage('');
+  };
+
   return (
     <section
       id="contactsection"
@@ -33,64 +48,65 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="contactways mt-10 lg:mt-40">
-          <div className="grid grid-cols-1 sm:grid-cols-3">
-            <div
-              className="flex flex-col justify-center items-center"
-              data-aos="fade-down"
-              data-aos-duration="2000"
-            >
-              <Image src={telephone} alt="telephone" width={125} height={125} />
-              <p
-                className="text-center text-[1.1rem] font-[400] mt-1.5 lg:mt-9 lg:mb-4"
-                style={{ fontFamily: 'Manrope', lineHeight: '25px' }}
-              >
-                GSM nummer
+        <div
+          className="contactways mt-10 lg:mt-20"
+          style={{
+            fontFamily: 'Poppins',
+          }}
+        >
+          <div className="bg-[rgba(248,248,248,.9)] shadow-sm lg:shadow-2xl pt-9 pb-6 rounded-lg px-3 lg:px-0 lg:rounded-sm flex flex-col justify-center items-center">
+            <div className="self-center lg:-ml-64">
+              <h3 className="text-[28px] font-bold" style={{ opacity: '.75' }}>
+                Get In Touch
+              </h3>
+              <p className="mb-10" style={{ opacity: '.50' }}>
+                We are here for you! How can we help?
               </p>
-              <h5
-                className="font-[700] text-[22px]  uppercase"
-                style={{ fontFamily: 'Trade Gothic LT Std' }}
-              >
-                +32 491 64 21 24
-              </h5>
             </div>
-            <div
-              className="flex flex-col justify-center items-center my-10 lg:my-0"
-              data-aos="fade-down"
-              data-aos-duration="2000"
-            >
-              <Image src={location} alt="location" width={125} height={125} />
-              <p
-                className="text-center text-[1.1rem] font-[400] mt-1.5 lg:mt-9 lg:mb-4"
-                style={{ fontFamily: 'Manrope', lineHeight: '25px' }}
-              >
-                Adres
-              </p>
-              <h5
-                className="font-[700] text-[22px]  uppercase"
-                style={{ fontFamily: 'Trade Gothic LT Std' }}
-              >
-                Beukenstraat 40, <br /> 3665 As
-              </h5>
-            </div>
-            <div
-              className="flex flex-col justify-center items-center"
-              data-aos="fade-down"
-              data-aos-duration="2000"
-            >
-              <Image src={email} alt="email" width={125} height={125} />
-              <p
-                className="text-center text-[1.1rem] font-[400] mt-1.5 lg:mt-9 lg:mb-4"
-                style={{ fontFamily: 'Manrope', lineHeight: '25px' }}
-              >
-                Email adres
-              </p>
-              <h5
-                className="font-[700] text-[22px]  uppercase"
-                style={{ fontFamily: 'Trade Gothic LT Std' }}
-              >
-                kieran@kvpainting.be
-              </h5>
+            <div className="">
+              <form className="md:w-[508px] " onSubmit={handleSubmit}>
+                <input
+                  type="text"
+                  placeholder="Enter your name"
+                  className="h-14 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-8 lg:tracking-[1.135px]"
+                  style={{
+                    borderRadius: '5px',
+                    fontFamily: 'Poppins',
+                  }}
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                />
+                <input
+                  type="email"
+                  placeholder="Enter your email address"
+                  className="h-14 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-8 lg:tracking-[1.135px]"
+                  style={{
+                    borderRadius: '5px',
+                    fontFamily: 'Poppins',
+                  }}
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+                <textarea
+                  placeholder="Enter your message"
+                  className="h-44 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-3 py-4 lg:tracking-[1.135px]"
+                  style={{
+                    borderRadius: '5px',
+                    fontFamily: 'Poppins',
+                  }}
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                />
+                <div className="text-center">
+                  <button
+                    type="submit"
+                    className="bg-[rgba(251,199,2,1)] lg:px-6 py-4  text-black mt-3 lg:mt-1 font-black w-full capitalize"
+                    style={{ fontFamily: 'Poppins' }}
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
