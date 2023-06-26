@@ -64,7 +64,10 @@ const Contact = () => {
             data-aos-duration="1500"
           >
             <div className="self-center lg:-ml-64">
-              <h3 className="text-[28px] font-bold" style={{ opacity: '.75' }}>
+              <h3
+                className="text-[28px] lg:text-4xl font-bold"
+                style={{ opacity: '.75' }}
+              >
                 Get In Touch
               </h3>
               <p className="mb-10" style={{ opacity: '.50' }}>
