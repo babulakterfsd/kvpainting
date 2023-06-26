@@ -63,8 +63,12 @@ const Whatwedo = () => {
             data-aos-duration="2500"
           >
             {/* <Image src={whatwedoimage} alt="What We Do" /> */}
-            <video autoPlay loop muted>
-              <source src="/whatewedo.mp4" type="video/mp4" />
+            <video autoPlay muted>
+              <source
+                src="/whatewedonew2.mp4"
+                type="video/mp4"
+                className="h-96"
+              />
               Your browser does not support the video tag.
             </video>
           </div>
