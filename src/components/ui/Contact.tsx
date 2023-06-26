@@ -58,7 +58,11 @@ const Contact = () => {
             fontFamily: 'Poppins',
           }}
         >
-          <div className="bg-[rgba(248,248,248,.9)] shadow-sm lg:shadow-2xl pt-9 pb-6 rounded-lg px-3 lg:px-0 lg:rounded-sm flex flex-col justify-center items-center relative">
+          <div
+            className="bg-[rgba(248,248,248,.9)] shadow-sm lg:shadow-2xl pt-9 pb-6 rounded-lg px-3 lg:px-0 lg:rounded-sm flex flex-col justify-center items-center relative"
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             <div className="self-center lg:-ml-64">
               <h3 className="text-[28px] font-bold" style={{ opacity: '.75' }}>
                 Get In Touch
