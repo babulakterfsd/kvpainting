@@ -111,7 +111,7 @@ const ImageSlider = () => {
           {data?.map((item) => (
               <SplideSlide key={item.id}>
                 <div className="card">
-                  <img src={item.img} alt="img" />
+                  <img src={item.img} alt="img" loading='lazy' />
                 </div>
               </SplideSlide>
           ))}
