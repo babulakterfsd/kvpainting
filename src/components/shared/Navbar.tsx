@@ -50,7 +50,6 @@ function Nav() {
                 alt="KVPainting"
                 height={80}
                 width={70}
-                loading="eager"
                 className="cursor-pointer hidden lg:block"
                 onClick={() => router.push('/')}
               />
@@ -60,7 +59,6 @@ function Nav() {
                 alt="KVPainting"
                 height={138}
                 width={143}
-                loading="eager"
                 className="cursor-pointer hidden lg:block"
                 onClick={() => router.push('/')}
               />
@@ -71,7 +69,6 @@ function Nav() {
                 src={Logo}
                 alt="KVPainting"
                 height={60}
-                loading="eager"
                 width={50}
                 className="cursor-pointer lg:hidden ml-6"
                 onClick={() => router.push('/')}
@@ -80,7 +77,6 @@ function Nav() {
               <Image
                 src={Logo}
                 alt="KVPainting"
-                loading="eager"
                 height={92}
                 width={95}
                 className="cursor-pointer mr-12 lg:hidden ml-6"
