@@ -70,6 +70,7 @@ const About = () => {
               alt="About Photo"
               height={570}
               width={570}
+              loading="lazy"
               className="object-cover my-6 lg:my-0 transition-all duration-500 ease-in-out transform hover:scale-110"
             />
           </div>
