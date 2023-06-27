@@ -51,7 +51,7 @@ const About = () => {
               hoogwaardige afwerking en topkwaliteit materialen. We bouwen
               relaties op met onze klanten, begrijpen hun visie en vertalen deze
               naar een prachtig eindresultaat. Kies voor onze professionele
-              schilder- en renovatiediensten en ervaar het verschil.
+              schilder- en renovatiediensten en ervaar het verschil
               <span className="mt-2 block">
                 {' '}
                 We willen niet enkel voldoen aan uw verwachtingen, we willen ze
