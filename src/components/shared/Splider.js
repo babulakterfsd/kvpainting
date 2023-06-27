@@ -18,7 +18,7 @@ const ImageSlider = () => {
   const data = [
     {
       id: 1,
-      img: 'https://i.ibb.co/kgZJHsD/brush-slider.webp'
+      img: 'https://i.ibb.co/BNytc6L/paintbrush-slider.webp'
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ const ImageSlider = () => {
     },
     {
       id: 3,
-      img: 'https://i.ibb.co/BNytc6L/paintbrush-slider.webp'
+      img: 'https://i.ibb.co/kgZJHsD/brush-slider.webp'
     }
   ];
 
