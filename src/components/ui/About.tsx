@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import AboutPhoto from '../../../public/assets/images/about.png';
+import AboutPhoto from '../../../public/assets/images/webp/about.webp';
 import Styles from '../../styles/about.module.css';
 
 const About = () => {
@@ -70,7 +70,7 @@ const About = () => {
               alt="About Photo"
               height={570}
               width={570}
-              className="object-cover my-6 lg:my-0 transition-all duration-500 ease-in-out transform hover:scale-150"
+              className="object-cover my-6 lg:my-0 transition-all duration-500 ease-in-out transform hover:scale-110"
             />
           </div>
         </div>
