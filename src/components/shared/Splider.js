@@ -12,19 +12,21 @@ import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Splide, SplideSlide, SplideTrack } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css/core';
+
+
 const ImageSlider = () => {
   const data = [
     {
       id: 1,
-      img: 'https://cdn.pixabay.com/photo/2023/04/11/16/00/brush-7917642_1280.jpg'
+      img: 'https://i.ibb.co/kgZJHsD/brush-slider.webp'
     },
     {
       id: 2,
-      img: 'https://cdn.pixabay.com/photo/2019/10/25/18/01/paintbrush-4577578_1280.jpg'
+      img: 'https://i.ibb.co/9qPwVL1/houses-slider.webp'
     },
     {
       id: 3,
-      img: 'https://cdn.pixabay.com/photo/2015/10/26/21/11/houses-1007932_1280.jpg'
+      img: 'https://i.ibb.co/BNytc6L/paintbrush-slider.webp'
     }
   ];
 

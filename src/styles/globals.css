@@ -213,11 +213,11 @@ button.splide__arrow.splide__arrow--prev {
     padding: 20px !important;
   }
   button.splide__arrow.splide__arrow--next {
-    top: 15.8rem !important;
+    top: 18.8rem !important;
     right: 7rem !important;
   }
   button.splide__arrow.splide__arrow--prev {
-    top: 16rem;
+    top: 19rem;
     left: 7rem;
     display: block !important;
   }
