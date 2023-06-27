@@ -70,15 +70,15 @@ const Contact = () => {
               >
                 Get In Touch
               </h3>
-              <p className="mb-10" style={{ opacity: '.50' }}>
-                We are here for you! How can we help?
+              <p className="mb-10 lg:ml-1.5" style={{ opacity: '.50' }}>
+                Hoe kunnen we je helpen?
               </p>
             </div>
             <div className="">
               <form className="md:w-[508px] " onSubmit={handleSubmit}>
                 <input
                   type="text"
-                  placeholder="Enter your name"
+                  placeholder="Jouw naam"
                   className="h-14 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-8 lg:tracking-[1.135px]"
                   style={{
                     borderRadius: '5px',
@@ -89,7 +89,7 @@ const Contact = () => {
                 />
                 <input
                   type="email"
-                  placeholder="Enter your email address"
+                  placeholder="Jouw emailadres"
                   className="h-14 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-8 lg:tracking-[1.135px]"
                   style={{
                     borderRadius: '5px',
@@ -99,7 +99,7 @@ const Contact = () => {
                   onChange={(e) => setEmail(e.target.value)}
                 />
                 <textarea
-                  placeholder="Enter your message"
+                  placeholder="Jouw vraag, bericht, opmerking"
                   className="h-44 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-3 py-4 lg:tracking-[1.135px]"
                   style={{
                     borderRadius: '5px',
@@ -112,9 +112,8 @@ const Contact = () => {
                   <button
                     type="submit"
                     className="bg-[rgba(251,199,2,1)] lg:px-6 py-4  text-black mt-3 lg:mt-1 font-black w-full capitalize"
-                    style={{ fontFamily: 'Poppins' }}
                   >
-                    Submit
+                    Dien in
                   </button>
                 </div>
               </form>
