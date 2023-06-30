@@ -27,7 +27,7 @@ const Banner = () => {
               <br /> Homes, Inside <br /> and Out
             </h1> */}
             <h1
-              className="text-[1.7rem] md:text-[1.9rem]  lg:text-4xl text-white leading-[32px] lg:leading-[42px] font-[500] h-[120px] sm:h-[170px] text-center sm:text-left"
+              className="text-[1.7rem] md:text-[1.9rem]  lg:text-4xl text-white leading-[32px] lg:leading-[42px] font-[500] h-[120px] sm:h-[120px] text-center sm:text-left"
               style={{
                 fontFamily: 'druk_wide_webmedium',
                 letterSpacing: '.02em',

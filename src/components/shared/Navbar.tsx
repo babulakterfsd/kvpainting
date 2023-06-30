@@ -43,7 +43,11 @@ function Nav() {
       >
         <div className="grid grid-cols-12 ">
           <div
-            className={`${Styles.glassNavBg} lg:col-start-2 lg:w-[1108px] lg:ps-6 lg:mx-auto col-span-12 flex justify-between lg:gap-x-6 xl:gap-x-36 items-center`}
+            className={`${
+              Styles.glassNavBg
+            } lg:col-start-2 lg:w-[1108px] lg:ps-6 lg:mx-auto col-span-12 flex ${
+              windowHeight ? 'justify-between' : 'justify-between'
+            } lg:gap-x-6 items-center`}
           >
             {/* desktop logo */}
             {windowHeight ? (
@@ -52,7 +56,7 @@ function Nav() {
                 alt="KVPainting"
                 height={83}
                 width={80}
-                className="cursor-pointer hidden lg:block lg:mr-auto"
+                className="cursor-pointer hidden lg:block"
                 onClick={() => router.push('/')}
               />
             ) : (
@@ -72,7 +76,7 @@ function Nav() {
                 alt="KVPainting"
                 height={60}
                 width={50}
-                className="cursor-pointer lg:hidden ml-6"
+                className="cursor-pointer lg:hidden ml-6 "
                 onClick={() => router.push('/')}
               />
             ) : (
@@ -94,7 +98,7 @@ function Nav() {
               KVPainting
             </h4>
 
-            <div className="flex md:order-2 mr-6">
+            <div className={`flex md:order-2 mr-6 lg:hidden`}>
               <button
                 onClick={toggleMenu}
                 data-collapse-toggle="NavBarId"
@@ -132,7 +136,7 @@ function Nav() {
             </div>
             <div
               className={`hidden w-full lg:block md:w-auto ${
-                windowHeight ? 'lg:ml-16' : 'lg:ml-0'
+                windowHeight ? 'lg:ml-0' : 'lg:ml-0 pr-6'
               }`}
               id="NavBarId"
             >
@@ -212,7 +216,7 @@ function Nav() {
                 <li onClick={() => scrollTo('#contactsection')}>
                   <a
                     href="#contactsection"
-                    className="block text-sm font-[400] bg-[rgba(251,199,2,1)] px-5 pt-3 py-2 text-black lg:ml-14"
+                    className="block text-sm font-[400] bg-[rgba(251,199,2,1)] px-5 pt-3 py-2 text-black"
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
                       letterSpacing: '.1em',
