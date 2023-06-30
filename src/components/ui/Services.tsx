@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <section id="service" className="lg:py-28 mt-32 lg:mt-0 overflow-x-hidden">
       <h3
-        className=" font-[400] text-center text-base lg:text-[1.3rem] px-7 lg:px-0 capitalize"
+        className=" font-[400] text-center text-base lg:text-[1.3rem] px-7 lg:px-0 capitalize text-[#0fbbd1]"
         style={{
           fontFamily: 'plus_jakarta_sansregular',
           letterSpacing: '.4rem',
@@ -20,9 +20,9 @@ const Services = () => {
         Onze diensten
       </h3>
       <h2
-        className="text-4xl lg:text-6xl font-[400] text-center mt-4 lg:mt-6 mb-8 lg:mb-14 text-uppercase leading-[38px] lg:leading-[61px] px-7 lg:px-0"
+        className="text-3xl lg:text-5xl font-semibold text-center mt-4 lg:mt-6 mb-8 lg:mb-14 text-uppercase leading-[38px] lg:leading-[56px] px-7 lg:px-0"
         style={{
-          fontFamily: 'modular14',
+          fontFamily: 'Changa',
           letterSpacing: '2%',
         }}
         data-aos="fade-down"
@@ -114,7 +114,7 @@ const Services = () => {
         data-aos-duration="1500"
         data-aos-offset="1"
       >
-        <button className="bg-black lg:px-10 py-4 w-[90%] sm:w-[200px] lg:w-[260px]  text-white mt-10">
+        <button className="bg-[rgba(251,199,2,1)]  lg:px-10 py-4 w-[90%] sm:w-[200px] lg:w-[260px] font-semibold mt-10">
           Vraag Uw Offerte Aan
         </button>
       </div>

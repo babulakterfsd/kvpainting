@@ -37,9 +37,9 @@ const Contact = () => {
         >
           <div className="textcontainer flex flex-col lg:justify-start lg:items-start">
             <h2
-              className="text-4xl text-center lg:text-left lg:text-6xl font-[400] text-uppercase lg:pt-14 lg:pl-20 leading-[38px] lg:leading[61px]"
+              className="text-3xl text-center lg:text-left lg:text-5xl  text-uppercase font-semibold lg:pt-14 lg:pl-20 leading-[38px] lg:leading[61px]"
               style={{
-                fontFamily: 'modular14',
+                fontFamily: 'Changa',
                 letterSpacing: '2%',
               }}
             >

@@ -1,13 +1,13 @@
 /* @media screen and (max-width: 900px) and (min-width: 600px) {} */
 .maintitle {
-  font-family: 'druk_wide_webmedium';
+  font-family: 'Changa';
   letter-spacing: '2%';
   line-height: '49px';
 }
 
 @media screen and (max-width: 1023.5px) {
   .maintitle {
-    font-family: 'modular14';
+    font-family: 'Changa';
     letter-spacing: '2%';
     line-height: '38px';
   }

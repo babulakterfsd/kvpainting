@@ -11,11 +11,13 @@ font-family: 'satoshi';
 font-family: 'Trade Gothic LT Std';
 font-family: 'Manrope';
 font-family: 'Poppins', sans-serif;
+font-family: 'Changa'
 */
 
 @import url('https://fonts.cdnfonts.com/css/trade-gothic-lt-std');
 @import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
 
 @font-face {
   font-family: 'plus_jakarta_sansregular';
@@ -95,7 +97,7 @@ body {
 }
 
 .glass {
-  background: rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(14.5px);
 }
 

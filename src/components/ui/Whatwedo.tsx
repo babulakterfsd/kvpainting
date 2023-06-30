@@ -8,7 +8,7 @@ const Whatwedo = () => {
         <div className="grid sm:flex justify-center items-center flex-col lg:grid grid-cols-1 lg:grid-cols-2 lg:gap-x-14">
           <div className="textcontainer">
             <h3
-              className=" font-[400] text-base lg:text-[1.3rem] sm:text-center lg:text-left capitalize"
+              className=" font-[400] text-base lg:text-[1.3rem] sm:text-center lg:text-left capitalize text-[#0fbbd1]"
               style={{
                 fontFamily: 'plus_jakarta_sansregular',
                 letterSpacing: '.4rem',
@@ -20,9 +20,9 @@ const Whatwedo = () => {
               Wat we doen
             </h3>
             <h2
-              className="text-4xl lg:text-6xl font-[400] mt-4 mb-4 lg:mb-6 text-uppercase leading-[38px] lg:leading-[61px] sm:text-center lg:text-left"
+              className="text-3xl lg:text-6xl font-[600] mt-4 mb-4 lg:mb-6 text-uppercase leading-[38px] lg:leading-[61px] sm:text-center lg:text-left"
               style={{
-                fontFamily: 'modular14',
+                fontFamily: 'Changa',
                 letterSpacing: '2%',
               }}
               data-aos="fade-down"
@@ -51,7 +51,7 @@ const Whatwedo = () => {
                 data-aos="fade-down"
                 data-aos-duration="1500"
               >
-                <button className="bg-black px-10 py-4  text-white mt-7 w-full sm:w-[200px] lg:w-[166px]">
+                <button className="bg-[rgba(251,199,2,1)] px-10 py-4  font-semibold mt-7 w-full sm:w-[200px] lg:w-[166px]">
                   Meer info
                 </button>
               </div>

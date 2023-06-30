@@ -22,7 +22,7 @@ const About = () => {
           OVER ONS
         </h3>
         <h2
-          className={`${Styles.maintitle} text-4xl font-[500] text-center mt-4 lg:mt-6 lg:mb-14 lg:leading-[49px] `}
+          className={`${Styles.maintitle} text-3xl lg:text-5xl font-semibold text-center mt-4 lg:mt-6 lg:mb-14 lg:leading-[49px] lg:px-36`}
           data-aos="fade-down"
           data-aos-duration="1500"
         >
@@ -59,7 +59,7 @@ const About = () => {
               </span>
             </p>
             <div className="w-full sm:text-center lg:text-left">
-              <button className="bg-[rgba(251,199,2,1)] px-10 py-4  text-black mt-6 lg:mt-10 font-bold w-full sm:w-[250px] capitalize">
+              <button className="bg-[rgba(251,199,2,1)] px-10 py-4  text-black mt-6 lg:mt-10 font-semibold w-full sm:w-[250px] capitalize">
                 Vraag uw offerte aan
               </button>
             </div>
@@ -68,8 +68,8 @@ const About = () => {
             <Image
               src={AboutPhoto}
               alt="About Photo"
-              height={570}
-              width={570}
+              height={670}
+              width={670}
               loading="lazy"
               className="object-cover my-6 lg:my-0 transition-all duration-500 ease-in-out transform hover:scale-110"
             />
