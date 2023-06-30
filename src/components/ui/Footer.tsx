@@ -39,31 +39,14 @@ const Footer = () => {
                 onClick={() => router.push('/')}
               />
             </div>
-            <div className="socialmediaicons flex gap-x-3">
-              <Image
-                src={fb}
-                alt="fb"
-                className="cursor-pointer hover:scale-110 duration-300 transition-all"
-              />
-              <Image
-                src={twitter}
-                alt="twitter"
-                className="cursor-pointer  hover:scale-110 duration-300 transition-all"
-              />
-              <Image
-                src={insta}
-                alt="insta"
-                className="cursor-pointer  hover:scale-110 duration-300 transition-all"
-              />
-            </div>
           </div>
           <div className="col-span-12 lg:col-span-8 md:px-8 lg:ml-auto lg:mt-6">
             <div className="flex justify-center px-3 lg:px-0 items-start gap-x-16 md:gap-x-32">
               <div className="grid-cols-1 lg:grid-cols-3">
                 <h6
-                  className="text-center mb-2 lg:mb-5 text-xl lg:text-2xl font-[700]"
+                  className="text-center mb-2 lg:mb-5 text-xl lg:text-2xl font-[600]"
                   style={{
-                    fontFamily: 'Trade Gothic LT Std',
+                    fontFamily: 'Changa',
                     lineHeight: '1.5rem',
                   }}
                 >
@@ -185,9 +168,9 @@ const Footer = () => {
               </div> */}
               <div className="grid-cols-1 lg:grid-cols-3">
                 <h6
-                  className="text-center mb-2 md:mb-5 text-xl lg:text-2xl font-[700]"
+                  className="text-center mb-2 md:mb-5 text-xl lg:text-2xl font-[600]"
                   style={{
-                    fontFamily: 'Trade Gothic LT Std',
+                    fontFamily: 'Changa',
                     lineHeight: '1.5rem',
                   }}
                 >
@@ -249,26 +232,53 @@ const Footer = () => {
                   </span>
                 </div>
               </div>
+              <div className="grid-cols-1 lg:grid-cols-3 hidden lg:block">
+                <h6
+                  className="text-center mb-2 md:mb-5 text-xl lg:text-2xl font-[600]"
+                  style={{
+                    fontFamily: 'Changa',
+                    lineHeight: '1.5rem',
+                  }}
+                >
+                  Social
+                </h6>
+                <div className="flex flex-col lg:flex-row gap-x-3 gap-y-1.5 md:gap-y-3 text-center text-sm">
+                  <Image
+                    src={fb}
+                    alt="fb"
+                    className="cursor-pointer hover:scale-110 duration-300 transition-all"
+                  />
+                  <Image
+                    src={twitter}
+                    alt="twitter"
+                    className="cursor-pointer  hover:scale-110 duration-300 transition-all"
+                  />
+                  <Image
+                    src={insta}
+                    alt="insta"
+                    className="cursor-pointer  hover:scale-110 duration-300 transition-all"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
         {/* divider */}
-        {/* <div className="flex justify-center items-center mt-8 md:mt-16">
+        <div className="flex lg:hidden justify-center items-center mt-8 md:mt-16">
           <div className="w-[90%] h-[1px] bg-[#687686]"></div>
         </div>
-        <div className="flex flex-col md:flex-row justify-between items-center px-6 md:px-20">
+        <div className="flex lg:hidden flex-col md:flex-row justify-between items-center px-6 md:px-20">
           <div className="flex gap-x-6 pt-2 pb-3 lg:pb-0 md:pt-4">
-            <span className="text-sm">Terms</span>
-            <span className="text-sm">Privacy</span>
-            <span className="text-sm">Cookies</span>
+            <span className="text-sm mt-0.5">
+              All Rights Reserved by Kieran Vonghia - 2023&copy;{' '}
+            </span>
           </div>
-          <div className="socialmediaicons flex gap-x-3 pt-3 md:pb-0 order-first lg:order-9">
-            <Image src={visa} alt="insta" height={27} width={43} />
-            <Image src={master} alt="twitter" height={27} width={43} />
-            <Image src={axpress} alt="fb" height={27} width={43} />
-            <Image src={discover} alt="fb" height={27} width={43} />
+          <div className="socialmediaicons flex gap-x-3 pt-3 md:pb-0 order-first lg:order-9 mt-3">
+            <Image src={fb} alt="insta" height={25} width={25} />
+            <Image src={insta} alt="twitter" height={25} width={25} />
+            <Image src={twitter} alt="fb" height={25} width={25} />
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   );
