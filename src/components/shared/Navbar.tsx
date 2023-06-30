@@ -33,33 +33,35 @@ function Nav() {
       className={`${
         windowHeight
           ? 'fixed top-0 bg-[rgba(255,255,255,1)] text-black shadow-2xl'
-          : 'absolute top-0 text-white'
+          : 'absolute lg:top-10 text-white '
       } z-50 w-full overflow-x-hidden ${Styles.mobnavtransparent}`}
     >
       <nav
         className={` ${
           windowHeight ? 'py-4 md:py-3' : 'py-2 md:py-4'
-        } sm:px-6 md:px-12`}
+        } sm:px-6 md:px-12 `}
       >
-        <div className="grid grid-cols-12">
-          <div className="lg:col-start-3 col-span-12 flex justify-between lg:gap-x-6 xl:gap-x-36 items-center">
+        <div className="grid grid-cols-12 ">
+          <div
+            className={`${Styles.glassNavBg} lg:col-start-2 lg:w-[1108px] lg:ps-6 lg:mx-auto col-span-12 flex justify-between lg:gap-x-6 xl:gap-x-36 items-center`}
+          >
             {/* desktop logo */}
             {windowHeight ? (
               <Image
                 src={Logo}
                 alt="KVPainting"
-                height={80}
-                width={70}
-                className="cursor-pointer hidden lg:block"
+                height={83}
+                width={80}
+                className="cursor-pointer hidden lg:block lg:mr-auto"
                 onClick={() => router.push('/')}
               />
             ) : (
               <Image
                 src={Logo}
                 alt="KVPainting"
-                height={138}
-                width={143}
-                className="cursor-pointer hidden lg:block"
+                height={83}
+                width={80}
+                className="cursor-pointer hidden lg:block lg:mr-auto"
                 onClick={() => router.push('/')}
               />
             )}
@@ -210,7 +212,7 @@ function Nav() {
                 <li onClick={() => scrollTo('#contactsection')}>
                   <a
                     href="#contactsection"
-                    className="block text-sm font-[400] bg-[rgba(251,199,2,1)] px-5 pt-3 py-2 text-black"
+                    className="block text-sm font-[400] bg-[rgba(251,199,2,1)] px-5 pt-3 py-2 text-black lg:ml-14"
                     style={{
                       fontFamily: 'plus_jakarta_sansregular',
                       letterSpacing: '.1em',

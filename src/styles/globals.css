@@ -94,6 +94,11 @@ body {
   scroll-behavior: smooth;
 }
 
+.glass {
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(14.5px);
+}
+
 .scrollToTop {
   position: relative;
 }

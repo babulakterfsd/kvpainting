@@ -27,3 +27,10 @@
       /* background-color: #272826 !important; */
     }
   }
+
+  @media screen and (min-width: 1024px) {
+    .glassNavBg {
+      background: rgba(255, 255, 255, 0.10);
+      backdrop-filter: blur(14.5px);
+    }
+  }

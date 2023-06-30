@@ -6,8 +6,12 @@ const Banner = () => {
   return (
     <section id="home" className="overflow-x-hidden">
       <div className={`${Styles.bannerbg}`}>
-        <div className="grid grid-cols-12 px-7 lg:px-0 sm:pb-20">
-          <div className=" flex flex-col col-span-12 lg:col-span-8 lg:col-start-3 lg:ml-16 sm:text-center lg:text-left sm:pb-2 md:pb-12 lg:pb-16">
+        <div className="grid grid-cols-12 pr-7 sm:px-7 lg:px-0 sm:pb-20">
+          <div
+            className=" flex flex-col col-span-12 lg:col-span-5 lg:col-start-2 lg:ml-16 sm:text-center lg:text-left sm:pb-2 md:pb-12 glass mt-40 md:mt-28 lg:mt-64 py-6 pl-6 pr-2 lg:pt-10 lg:pb-6 lg:pl-10 "
+            data-aos="fade-down"
+            data-aos-duration="1500"
+          >
             {/* <h1
               className="text-[1.9rem] mt-40 lg:mt-0 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500]"
               style={{
@@ -23,7 +27,7 @@ const Banner = () => {
               <br /> Homes, Inside <br /> and Out
             </h1> */}
             <h1
-              className="text-[1.7rem] md:text-[1.9rem] mt-40 md:mt-28 lg:mt-56 lg:text-5xl text-white leading-[32px] lg:leading-[62px] font-[500] h-[120px] sm:h-[200px]"
+              className="text-[1.7rem] md:text-[1.9rem]  lg:text-4xl text-white leading-[32px] lg:leading-[42px] font-[500] h-[120px] sm:h-[170px] text-center sm:text-left"
               style={{
                 fontFamily: 'druk_wide_webmedium',
                 letterSpacing: '.02em',
