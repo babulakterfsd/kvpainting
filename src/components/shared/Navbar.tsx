@@ -53,8 +53,8 @@ function Nav() {
               <Image
                 src={Logo}
                 alt="KVPainting"
-                height={83}
-                width={80}
+                height={63}
+                width={60}
                 className="cursor-pointer hidden lg:block"
                 onClick={() => router.push('/')}
               />
@@ -82,8 +82,8 @@ function Nav() {
               <Image
                 src={Logo}
                 alt="KVPainting"
-                height={92}
-                width={95}
+                height={62}
+                width={75}
                 className="cursor-pointer mr-12 lg:hidden ml-6"
                 onClick={() => router.push('/')}
               />

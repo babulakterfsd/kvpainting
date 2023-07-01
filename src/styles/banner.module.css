@@ -9,8 +9,8 @@
 
 @media screen and (max-width: 639.5px) {
   .bannerbg {
-    background-image: url('../../public/assets/images/webp/mobile_headerv2.webp');
-    background-position: top center;
+    background-image: url('../../public/assets/images/webp/mobile-matha.webp');
+    background-position: 95% 50%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
