@@ -27,7 +27,7 @@ const Banner = () => {
               <br /> Homes, Inside <br /> and Out
             </h1> */}
             <h1
-              className="text-[1.7rem] md:text-[1.9rem]  lg:text-[56px] text-white leading-[32px] lg:leading-[120%] font-semibold h-[120px] sm:h-[150px]  text-center sm:text-left"
+              className="text-[1.7rem] md:text-[1.9rem]  lg:text-[56px] text-white leading-[32px] lg:leading-[120%] font-semibold h-[120px] sm:h-[150px]  text-center sm:text-left font-chnaga"
               style={{
                 fontFamily: 'Changa',
                 letterSpacing: '2.8px',
@@ -68,7 +68,7 @@ const Banner = () => {
               </span>{' '}
             </h1>
             <p
-              className="font-[500] text-[1rem] lg-[.7rem] lg:text-[1rem] text-white my-1 lg:mt-3"
+              className="font-[500] text-[1rem] lg-[.7rem] lg:text-[1rem] text-white lg:pb-4"
               style={{
                 fontFamily: 'plus_jakarta_sansregular',
                 letterSpacing: '.02rem',
