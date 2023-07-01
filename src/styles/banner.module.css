@@ -9,8 +9,7 @@
 
 @media screen and (max-width: 639.5px) {
   .bannerbg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-      url('../../public/assets/images/webp/mobile_headerv2.webp');
+    background-image: url('../../public/assets/images/webp/mobile_headerv2.webp');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
