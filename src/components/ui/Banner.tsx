@@ -27,7 +27,7 @@ const Banner = () => {
               <br /> Homes, Inside <br /> and Out
             </h1> */}
             <h1
-              className="text-[1.7rem] md:text-[1.9rem]  lg:text-[56px] text-white leading-[32px] lg:leading-[120%] font-semibold h-[120px] sm:h-[150px]  text-center sm:text-left font-changa"
+              className="text-[2rem] md:text-[1.9rem]  lg:text-[56px] text-white leading-[36px] lg:leading-[120%] font-semibold h-[90px] sm:h-[150px]  text-center sm:text-left font-changa"
               style={{
                 letterSpacing: '2.8px',
               }}
