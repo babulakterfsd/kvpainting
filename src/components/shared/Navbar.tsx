@@ -41,11 +41,10 @@ function Nav() {
           windowHeight ? 'py-4 md:py-3' : 'py-2 md:py-4'
         } sm:px-6 md:px-12 `}
       >
+        {/* desktop */}
         <div className="grid grid-cols-12 ">
           <div
-            className={`${
-              Styles.glassNavBg
-            } lg:col-start-2 lg:w-[1108px] lg:ps-6 lg:mx-auto col-span-12 flex ${
+            className={`${Styles.glassNavBg} lg:ps-6 col-span-12 flex ${
               windowHeight ? 'justify-between' : 'justify-between'
             } lg:gap-x-6 items-center`}
           >
