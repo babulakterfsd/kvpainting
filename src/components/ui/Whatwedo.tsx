@@ -20,9 +20,8 @@ const Whatwedo = () => {
               Wat we doen
             </h3>
             <h2
-              className="text-3xl lg:text-6xl font-[600] mt-4 mb-4 lg:mb-6 text-uppercase leading-[38px] lg:leading-[61px] sm:text-center lg:text-left"
+              className="text-3xl lg:text-6xl font-[600] mt-4 mb-4 lg:mb-6 text-uppercase leading-[38px] lg:leading-[61px] sm:text-center lg:text-left font-changa"
               style={{
-                fontFamily: 'Changa',
                 letterSpacing: '2%',
               }}
               data-aos="fade-down"

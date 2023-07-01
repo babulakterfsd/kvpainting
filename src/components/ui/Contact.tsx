@@ -37,9 +37,8 @@ const Contact = () => {
         >
           <div className="textcontainer flex flex-col lg:justify-start lg:items-start">
             <h2
-              className="text-3xl text-center lg:text-left lg:text-5xl  text-uppercase font-semibold lg:pt-14 lg:pl-20 leading-[38px] lg:leading[61px]"
+              className="text-3xl text-center lg:text-left lg:text-5xl  text-uppercase font-semibold lg:font-semibold lg:pt-14 lg:pl-20 leading-[38px] lg:leading[61px] font-changa"
               style={{
-                fontFamily: 'Changa',
                 letterSpacing: '2%',
               }}
             >
@@ -52,12 +51,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div
-          className="contactways mt-10 lg:mt-20"
-          style={{
-            fontFamily: 'Poppins',
-          }}
-        >
+        <div className="contactways mt-10 lg:mt-20 font-changa">
           <div
             className="bg-[rgba(248,248,248,.9)] shadow-sm lg:shadow-2xl pt-9 pb-6 rounded-lg px-3 lg:px-0 lg:rounded-sm flex flex-col justify-center items-center relative"
             data-aos="fade-down"

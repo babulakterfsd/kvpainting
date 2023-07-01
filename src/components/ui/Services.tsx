@@ -20,9 +20,8 @@ const Services = () => {
         Onze diensten
       </h3>
       <h2
-        className="text-3xl lg:text-5xl font-semibold text-center mt-4 lg:mt-6 mb-8 lg:mb-14 text-uppercase leading-[38px] lg:leading-[56px] px-7 lg:px-0"
+        className="text-3xl lg:text-5xl font-semibold text-center mt-4 lg:mt-6 mb-8 lg:mb-14 text-uppercase leading-[38px] lg:leading-[56px] px-7 lg:px-0 font-changa"
         style={{
-          fontFamily: 'Changa',
           letterSpacing: '2%',
         }}
         data-aos="fade-down"

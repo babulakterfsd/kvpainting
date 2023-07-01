@@ -22,7 +22,7 @@ const About = () => {
           OVER ONS
         </h3>
         <h2
-          className={`${Styles.maintitle} text-3xl lg:text-5xl font-semibold text-center mt-4 lg:mt-6 lg:mb-14 lg:leading-[49px] lg:px-36`}
+          className={`${Styles.maintitle} text-3xl lg:text-5xl font-semibold text-center mt-4 lg:mt-6 lg:mb-14 lg:leading-[49px] font-changa`}
           data-aos="fade-down"
           data-aos-duration="1500"
         >

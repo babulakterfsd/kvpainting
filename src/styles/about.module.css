@@ -1,13 +1,11 @@
 /* @media screen and (max-width: 900px) and (min-width: 600px) {} */
 .maintitle {
-  font-family: 'Changa';
   letter-spacing: '2%';
   line-height: '49px';
 }
 
 @media screen and (max-width: 1023.5px) {
   .maintitle {
-    font-family: 'Changa';
     letter-spacing: '2%';
     line-height: '38px';
   }

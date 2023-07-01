@@ -19,9 +19,8 @@ const Projects = () => {
           ONZE PROJECTEN
         </h3>
         <h2
-          className="text-3xl lg:text-5xl font-[600] text-center mt-4 lg:mt-6 lg:mb-10 text-uppercase px-7 lg:px-0 leading-[38px] lg:leading-[61px]"
+          className="text-3xl lg:text-5xl font-[600] text-center mt-4 lg:mt-6 lg:mb-10 text-uppercase px-7 lg:px-0 leading-[38px] lg:leading-[61px] font-changa"
           style={{
-            fontFamily: 'Changa',
             letterSpacing: '2%',
           }}
           data-aos="fade-down"

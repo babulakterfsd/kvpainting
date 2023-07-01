@@ -44,9 +44,8 @@ const Footer = () => {
             <div className="flex justify-center px-3 lg:px-0 items-start gap-x-16 md:gap-x-32">
               <div className="grid-cols-1 lg:grid-cols-3">
                 <h6
-                  className="text-center mb-2 lg:mb-5 text-xl lg:text-2xl font-[600]"
+                  className="text-center mb-2 lg:mb-5 text-xl lg:text-2xl font-[600] font-changa"
                   style={{
-                    fontFamily: 'Changa',
                     lineHeight: '1.5rem',
                   }}
                 >
@@ -168,9 +167,8 @@ const Footer = () => {
               </div> */}
               <div className="grid-cols-1 lg:grid-cols-3">
                 <h6
-                  className="text-center mb-2 md:mb-5 text-xl lg:text-2xl font-[600]"
+                  className="text-center mb-2 md:mb-5 text-xl lg:text-2xl font-[600] font-changa"
                   style={{
-                    fontFamily: 'Changa',
                     lineHeight: '1.5rem',
                   }}
                 >
@@ -234,9 +232,8 @@ const Footer = () => {
               </div>
               <div className="grid-cols-1 lg:grid-cols-3 hidden lg:block">
                 <h6
-                  className="text-center mb-2 md:mb-5 text-xl lg:text-2xl font-[600]"
+                  className="text-center mb-2 md:mb-5 text-xl lg:text-2xl font-[600] font-changa"
                   style={{
-                    fontFamily: 'Changa',
                     lineHeight: '1.5rem',
                   }}
                 >
