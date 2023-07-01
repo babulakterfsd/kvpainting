@@ -29,7 +29,6 @@ const Banner = () => {
             <h1
               className="text-[1.7rem] md:text-[1.9rem]  lg:text-[56px] text-white leading-[32px] lg:leading-[120%] font-semibold h-[120px] sm:h-[150px]  text-center sm:text-left font-chnaga"
               style={{
-                fontFamily: 'Changa',
                 letterSpacing: '2.8px',
               }}
               data-aos="fade-down"
@@ -40,7 +39,6 @@ const Banner = () => {
                 <span
                   className={`${Styles.gradientTitle} ml-0.5 `}
                   style={{
-                    fontFamily: 'Changa',
                     letterSpacing: '2.8px',
                   }}
                 >
