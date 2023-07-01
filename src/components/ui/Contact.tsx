@@ -105,7 +105,7 @@ const Contact = () => {
                 <div className="text-center">
                   <button
                     type="submit"
-                    className="bg-[rgba(251,199,2,1)] lg:px-6 py-4  text-black mt-3 lg:mt-1 font-black w-full capitalize opacity-95"
+                    className="bg-[rgba(251,199,2,1)] lg:px-6 py-4  text-black mt-3 lg:mt-1 font-semibold w-full capitalize opacity-95"
                   >
                     Dien in
                   </button>
