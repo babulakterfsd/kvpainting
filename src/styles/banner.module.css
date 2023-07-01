@@ -1,6 +1,6 @@
 .bannerbg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url('../../public/assets/images/webp/updated-desktop-bg.webp');
+    url('../../public/assets/images/webp/web_header_v2.webp');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,8 +10,8 @@
 @media screen and (max-width: 639.5px) {
   .bannerbg {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-      url('../../public/assets/images/webp/updated-bannerbg-mobile.webp');
-    /* background-position: bottom center; */
+      url('../../public/assets/images/webp/mobile_headerv2.webp');
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
