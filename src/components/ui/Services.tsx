@@ -1,7 +1,11 @@
 import Image from 'next/image';
+import decorationm from '../../../public/assets/images/service-decoration-m.png';
 import decoration from '../../../public/assets/images/service-decoration.png';
+import insidehomem from '../../../public/assets/images/service-insidehome-m.png';
 import insidehome from '../../../public/assets/images/service-insidehome.png';
+import outsidehomem from '../../../public/assets/images/service-outsidehome-m.png';
 import outsidehome from '../../../public/assets/images/service-outsidehome.png';
+import restorationm from '../../../public/assets/images/service-restoration-m.png';
 import restoration from '../../../public/assets/images/service-restoration.png';
 
 const Services = () => {
@@ -40,10 +44,17 @@ const Services = () => {
             alt="Outside Home"
             width={136}
             height={136}
-            className="p-3 block"
+            className="p-3 hidden lg:block"
+          />
+          <Image
+            src={outsidehomem}
+            alt="Outside Home"
+            width={136}
+            height={136}
+            className="p-3 block lg:hidden"
           />
           <p
-            className=" font-[600] text-base text-center lg:text-2xl pb-3"
+            className=" font-[600] text-base text-center lg:text-2xl pb-3 text-[#d9af0f] lg:text-black"
             style={{
               fontFamily: 'plus_jakarta_sansregular',
               letterSpacing: '2%',
@@ -58,10 +69,17 @@ const Services = () => {
             alt="inside Home"
             width={136}
             height={136}
-            className="p-3 block"
+            className="p-3 hidden lg:block"
+          />
+          <Image
+            src={insidehomem}
+            alt="inside Home"
+            width={136}
+            height={136}
+            className="p-3 block lg:hidden"
           />
           <p
-            className=" font-[600] text-base text-center lg:text-2xl pb-3"
+            className=" font-[600] text-base text-center lg:text-2xl pb-3 text-[#d9af0f] lg:text-black"
             style={{
               fontFamily: 'plus_jakarta_sansregular',
               letterSpacing: '2%',
@@ -76,10 +94,17 @@ const Services = () => {
             alt="decoration"
             width={136}
             height={136}
-            className="p-3 block"
+            className="p-3 hidden lg:block"
+          />
+          <Image
+            src={decorationm}
+            alt="decoration"
+            width={136}
+            height={136}
+            className="p-3 block lg:hidden"
           />
           <p
-            className=" font-[600] text-base text-center lg:text-2xl pb-3 px-8"
+            className=" font-[600] text-base text-center lg:text-2xl pb-3 px-8 text-[#d9af0f] lg:text-black"
             style={{
               fontFamily: 'plus_jakarta_sansregular',
               letterSpacing: '2%',
@@ -94,10 +119,17 @@ const Services = () => {
             alt="decoration"
             width={136}
             height={136}
-            className="p-3 block"
+            className="p-3 hidden lg:block"
+          />
+          <Image
+            src={restorationm}
+            alt="decoration"
+            width={136}
+            height={136}
+            className="p-3 block lg:hidden"
           />
           <p
-            className=" font-[600] text-base text-center lg:text-2xl pb-3 px-8"
+            className=" font-[600] text-base text-center lg:text-2xl pb-3 px-8 text-[#d9af0f] lg:text-black"
             style={{
               fontFamily: 'plus_jakarta_sansregular',
               letterSpacing: '2%',
