@@ -8,7 +8,7 @@ const Banner = () => {
       <div className={`${Styles.bannerbg}`}>
         <div className="grid grid-cols-12 pr-7 sm:px-7 lg:px-0 sm:pb-20">
           <div
-            className=" flex flex-col col-span-12 lg:col-span-5 lg:col-start-2 lg:ml-16 sm:text-center lg:text-left sm:pb-2 md:pb-12 glass mt-40 md:mt-28 lg:mt-64 py-6 pl-6 pr-2 lg:pt-10 lg:pb-6 lg:pl-10 "
+            className=" flex flex-col col-span-12 lg:col-span-6 lg:col-start-2 lg:ml-16 sm:text-center lg:text-left sm:pb-2 md:pb-12 glass mt-40 md:mt-28 lg:mt-64 py-6 pl-6 pr-2 lg:pt-10 lg:pb-6 lg:pl-10 "
             data-aos="fade-down"
             data-aos-duration="1500"
           >
@@ -27,7 +27,7 @@ const Banner = () => {
               <br /> Homes, Inside <br /> and Out
             </h1> */}
             <h1
-              className="text-[1.7rem] md:text-[1.9rem]  lg:text-5xl text-white leading-[32px] lg:leading-[48px] font-semibold h-[120px] sm:h-[150px]  text-center sm:text-left"
+              className="text-[1.7rem] md:text-[1.9rem]  lg:text-[56px] text-white leading-[32px] lg:leading-[120%] font-semibold h-[120px] sm:h-[150px]  text-center sm:text-left"
               style={{
                 fontFamily: 'Changa',
                 letterSpacing: '2.8px',
@@ -35,9 +35,15 @@ const Banner = () => {
               data-aos="fade-down"
               data-aos-duration="1500"
             >
-              <span className={`text-white font-medium capitalize`}>
-                Wij <br />
-                <span className={`${Styles.gradientTitle} ml-0.5 `}>
+              <span className={`text-white font-semibold capitalize`}>
+                Wij
+                <span
+                  className={`${Styles.gradientTitle} ml-0.5 `}
+                  style={{
+                    fontFamily: 'Changa',
+                    letterSpacing: '2.8px',
+                  }}
+                >
                   <Typewriter
                     words={[
                       'Vertalen Visies',
