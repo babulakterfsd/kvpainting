@@ -13,3 +13,24 @@
     background-size: cover;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  .marginLeft112 {
+    margin-left: 3rem;
+  }
+}
+@media screen and (min-width: 1510px) {
+  .marginLeft112 {
+    margin-left: 5rem;
+  }
+}
+@media screen and (min-width: 1620px) {
+  .marginLeft112 {
+    margin-left: 7rem;
+  }
+}
+@media screen and (min-width: 1620px) {
+  .marginLeft112 {
+    margin-left: 9rem;
+  }
+}
