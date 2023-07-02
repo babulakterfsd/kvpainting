@@ -9,6 +9,7 @@ import Styles from '../../styles/contact.module.css';
 const Contact = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [address, setAddress] = useState('');
   const [message, setMessage] = useState('');
 
   const handleSubmit = (e: any) => {
@@ -16,6 +17,7 @@ const Contact = () => {
     const data = {
       name,
       email,
+      address,
       message,
     };
     alert('Message sent, Thank you!');
@@ -91,6 +93,16 @@ const Contact = () => {
                   }}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                />
+                <textarea
+                  placeholder="Jouw Adres"
+                  className="h-16 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-3 py-4 lg:tracking-[1.135px]"
+                  style={{
+                    borderRadius: '5px',
+                    fontFamily: 'Poppins',
+                  }}
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                 />
                 <textarea
                   placeholder="Jouw vraag, bericht, opmerking"
