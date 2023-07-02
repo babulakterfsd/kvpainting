@@ -27,7 +27,7 @@ const Whatwedo = () => {
               data-aos="fade-down"
               data-aos-duration="1500"
             >
-              met perfectie komt resultaat
+              Met perfectie komt resultaat
             </h2>
             <div className="">
               <p
