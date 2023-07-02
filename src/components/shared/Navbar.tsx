@@ -180,7 +180,7 @@ function Nav() {
                       lineHeight: '22px',
                     }}
                   >
-                    WORK
+                    OVER ONS
                   </a>
                 </li>
                 {/* companies */}
@@ -295,7 +295,7 @@ function Nav() {
                   lineHeight: '22px',
                 }}
               >
-                WORK
+                OVER ONS
               </a>
             </li>
             {/* companies */}
