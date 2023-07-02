@@ -21,6 +21,7 @@ const Contact = () => {
       message,
     };
     alert('Message sent, Thank you!');
+    console.log(data);
     setName('');
     setEmail('');
     setMessage('');
@@ -77,13 +78,14 @@ const Contact = () => {
                 <input
                   type="text"
                   placeholder="Jouw naam"
-                  className="h-14 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-8 lg:tracking-[1.135px]"
+                  className="border-none h-14 shadow-md focus:shadow-xl  focus:outline-none w-full px-5 text-[#9F9F9F] mb-8 lg:tracking-[1.135px]"
                   style={{
                     borderRadius: '5px',
                     fontFamily: 'Poppins',
                   }}
                   value={name}
                   onChange={(e) => setName(e.target.value)}
+                  required
                 />
                 <input
                   type="email"
@@ -95,6 +97,7 @@ const Contact = () => {
                   }}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  required
                 />
                 <textarea
                   placeholder="Jouw Adres"
@@ -103,8 +106,9 @@ const Contact = () => {
                     borderRadius: '5px',
                     fontFamily: 'Poppins',
                   }}
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
+                  value={address}
+                  onChange={(e) => setAddress(e.target.value)}
+                  required
                 />
                 <textarea
                   placeholder="Jouw vraag, bericht, opmerking"
@@ -115,6 +119,7 @@ const Contact = () => {
                   }}
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
+                  required
                 />
                 <div className="text-center">
                   <button
