@@ -1,6 +1,7 @@
 'use client';
 import Image from 'next/image';
 import { useState } from 'react';
+import toast, { Toaster } from 'react-hot-toast';
 import fb from '../../../public/assets/images/fbc.png';
 import lnkdin from '../../../public/assets/images/lnkdinc.png';
 import twtr from '../../../public/assets/images/twitterc.png';
@@ -12,7 +13,7 @@ const Contact = () => {
   const [address, setAddress] = useState('');
   const [message, setMessage] = useState('');
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     const data = {
       name,
@@ -20,11 +21,25 @@ const Contact = () => {
       address,
       message,
     };
-    alert('Message sent, Thank you!');
-    console.log(data);
-    setName('');
-    setEmail('');
-    setMessage('');
+
+    await fetch('/api/sendmail', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        toast.success(data.message);
+        setName('');
+        setEmail('');
+        setAddress('');
+        setMessage('');
+      })
+      .catch((err) => {
+        toast.error(err.message);
+      });
   };
 
   return (
@@ -77,6 +92,7 @@ const Contact = () => {
               <form className="md:w-[508px] " onSubmit={handleSubmit}>
                 <input
                   type="text"
+                  name="name"
                   placeholder="Jouw naam"
                   className="border-none h-14 shadow-md focus:shadow-xl  focus:outline-none w-full px-5 text-[#9F9F9F] mb-8 lg:tracking-[1.135px]"
                   style={{
@@ -89,6 +105,7 @@ const Contact = () => {
                 />
                 <input
                   type="email"
+                  name="email"
                   placeholder="Jouw emailadres"
                   className="h-14 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-8 lg:tracking-[1.135px]"
                   style={{
@@ -101,6 +118,7 @@ const Contact = () => {
                 />
                 <textarea
                   placeholder="Jouw Adres"
+                  name="address"
                   className="h-16 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-3 py-4 lg:tracking-[1.135px]"
                   style={{
                     borderRadius: '5px',
@@ -112,6 +130,7 @@ const Contact = () => {
                 />
                 <textarea
                   placeholder="Jouw vraag, bericht, opmerking"
+                  name="message"
                   className="h-44 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-3 py-4 lg:tracking-[1.135px]"
                   style={{
                     borderRadius: '5px',
@@ -157,6 +176,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Toaster />
     </section>
   );
 };

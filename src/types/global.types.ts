@@ -5,5 +5,6 @@ export type LayoutType = {
 export interface RequestBody {
   name: string;
   email: string;
-  age: number;
+  address: string;
+  message: string;
 }
