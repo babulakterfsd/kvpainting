@@ -4,7 +4,7 @@ import '../styles/globals.css';
 
 export const metadata = {
   title: 'KVPainting - Bringing visions to life',
-  description: 'KVPainting - Bringing visions to life',
+  description: 'KVPainting - Bringing visions to life.',
 };
 
 const ga_id = 'G-R6PYD3CQ8N';
