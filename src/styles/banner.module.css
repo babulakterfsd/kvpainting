@@ -9,8 +9,8 @@
 
 @media screen and (max-width: 639.5px) {
   .bannerbg {
-    background-image: url('../../public/assets/images/webp/kv-mobile-banner.webp');
-    background-position: 95% 50%;
+    background-image: url('../../public/assets/images/webp/kvpainting_mobile_headerv2.webp');
+    background-position: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
