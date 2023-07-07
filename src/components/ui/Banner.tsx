@@ -12,29 +12,17 @@ const Banner = () => {
             data-aos="fade-down"
             data-aos-duration="1500"
           >
-            {/* <h1
-              className="text-[1.9rem] mt-40 lg:mt-0 lg:text-5xl text-white leading-[39px] lg:leading-[62px] font-[500]"
-              style={{
-                fontFamily: 'druk_wide_webmedium',
-                letterSpacing: '.02em',
-              }}
-              data-aos="fade-down"
-              data-aos-duration="1500"
-            >
-              <span className={`${Styles.gradientTitle} font-medium`}>
-                Beautifying
-              </span>{' '}
-              <br /> Homes, Inside <br /> and Out
-            </h1> */}
             <h1
-              className="text-[2rem] md:text-[1.9rem]  lg:text-[56px] text-white leading-[36px] lg:leading-[120%] font-semibold h-[90px] sm:h-[150px]  text-center sm:text-left font-changa tracking-[.5px] lg:translate-[2.8px]"
+              className="text-[2rem] md:text-[1.9rem]  lg:text-[56px] text-white leading-[36px] lg:leading-[120%] font-semibold h-[90px] sm:h-[150px]  text-center  font-changa tracking-[.5px] lg:translate-[2.8px] lg:text-left"
               data-aos="fade-down"
               data-aos-duration="1500"
             >
-              <span className={`text-white font-semibold capitalize`}>
+              <span
+                className={`text-white font-semibold capitalize text-center lg:text-left`}
+              >
                 Wij
                 <span
-                  className={`${Styles.gradientTitle} ml-2 xl:ml-3 `}
+                  className={`${Styles.gradientTitle} ml-2 xl:ml-3 text-center lg:text-left`}
                   style={{
                     letterSpacing: '2.8px',
                   }}
@@ -63,7 +51,7 @@ const Banner = () => {
               </span>{' '}
             </h1>
             <p
-              className="font-[500] text-[1rem] lg-[.7rem] lg:text-[1rem] text-white lg:pb-4"
+              className="font-[500] text-[1rem] lg-[.7rem] lg:text-[1rem] text-white lg:pb-4 text-center lg:text-left"
               style={{
                 fontFamily: 'plus_jakarta_sansregular',
                 letterSpacing: '.02rem',
