@@ -26,7 +26,7 @@ const Projects = () => {
           data-aos="fade-down"
           data-aos-duration="1500"
         >
-          Bekijk onze palmares
+          Bekijk onze projecten
         </h2>
         <ImageSlider />
       </div>
