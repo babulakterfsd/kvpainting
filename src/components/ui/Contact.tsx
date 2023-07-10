@@ -43,10 +43,7 @@ const Contact = () => {
   };
 
   return (
-    <section
-      id="contactsection"
-      className="py-20 lg:py-28 grid grid-cols-12 overflow-x-hidden "
-    >
+    <section className="py-20 lg:py-28 grid grid-cols-12 overflow-x-hidden ">
       <div className="col-span-12 lg:col-span-8 lg:col-start-3 px-7 lg:px-0">
         <div
           className={`${Styles.contactbg} pt-6 pb-52 rounded-2xl lg:py-0 lg:rounded-3xl px-7 lg:px-0`}
@@ -71,7 +68,10 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="contactways mt-10 lg:mt-20 font-changa">
+        <div
+          className="contactways mt-10 lg:mt-20 font-changa"
+          id="contactsection"
+        >
           <div
             className="bg-[rgba(248,248,248,.9)] shadow-sm lg:shadow-2xl pt-9 pb-6 rounded-lg px-3 lg:px-0 lg:rounded-sm flex flex-col justify-center items-center relative"
             data-aos="fade-down"

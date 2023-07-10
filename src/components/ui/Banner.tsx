@@ -1,8 +1,14 @@
 import Image from 'next/image';
 import { Typewriter } from 'react-simple-typewriter';
+import scrollToElement from 'scroll-to-element';
 import mobilebannerunder from '../../../public/assets/images/mobileunderbannerbg.png';
 import Styles from '../../styles/banner.module.css';
+
 const Banner = () => {
+  const scrollTo = (selector: any) => {
+    scrollToElement(selector, { offset: 45, ease: 'linear', duration: 500 });
+  };
+
   return (
     <section id="home" className="overflow-x-hidden">
       <div className={`${Styles.bannerbg}`}>
@@ -70,7 +76,12 @@ const Banner = () => {
               data-aos-duration="2500"
               data-aos-offset="1"
             >
-              <button className="bg-[rgba(251,199,2,1)] lg:px-6 py-4  text-black mt-3 lg:mt-1 font-semibold w-full sm:w-[220px] capitalize">
+              <button
+                className="bg-[rgba(251,199,2,1)] lg:px-6 py-4  text-black mt-3 lg:mt-1 font-semibold w-full sm:w-[220px] capitalize"
+                onClick={() => {
+                  scrollTo('#contactsection');
+                }}
+              >
                 Vraag uw offerte aan
               </button>
             </div>
