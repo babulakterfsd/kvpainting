@@ -16,7 +16,7 @@ const Projects = () => {
           data-aos="fade-down"
           data-aos-duration="2500"
         >
-          ONZE PROJECTEN
+          Onze Projecten
         </h3>
         <h2
           className="text-3xl lg:text-5xl font-[600] text-center mt-4 lg:mt-6 lg:mb-10 text-uppercase px-7 lg:px-0 leading-[38px] lg:leading-[61px] font-changa"

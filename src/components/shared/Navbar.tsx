@@ -18,7 +18,7 @@ function Nav() {
   };
 
   const scrollTo = (selector: any) => {
-    scrollToElement(selector, { offset: 0, ease: 'linear', duration: 500 });
+    scrollToElement(selector, { offset: 10, ease: 'linear', duration: 500 });
   };
 
   useEffect(() => {

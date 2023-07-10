@@ -19,7 +19,7 @@ const About = () => {
           data-aos="fade-down"
           data-aos-duration="2500"
         >
-          OVER ONS
+          Over Ons
         </h3>
         <h2
           className={`${Styles.maintitle} text-3xl lg:text-5xl font-semibold text-center mt-4 lg:mt-6 lg:mb-14 lg:leading-[49px] font-changa`}
