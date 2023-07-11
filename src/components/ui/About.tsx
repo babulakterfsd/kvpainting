@@ -1,8 +1,12 @@
 import Image from 'next/image';
+import scrollToElement from 'scroll-to-element';
 import AboutPhoto from '../../../public/assets/images/webp/about.webp';
 import Styles from '../../styles/about.module.css';
 
 const About = () => {
+  const scrollTo = (selector: any) => {
+    scrollToElement(selector, { offset: 45, ease: 'linear', duration: 500 });
+  };
   return (
     <section
       id="aboutsection"
@@ -59,7 +63,12 @@ const About = () => {
               </span>
             </p>
             <div className="w-full sm:text-center lg:text-left">
-              <button className="bg-[rgba(251,199,2,1)] px-10 py-4  text-black mt-6 lg:mt-10 font-semibold w-full sm:w-[250px] capitalize">
+              <button
+                className="bg-[rgba(251,199,2,1)] px-10 py-4  text-black mt-6 lg:mt-10 font-semibold w-full sm:w-[250px] capitalize"
+                onClick={() => {
+                  scrollTo('#contactsection');
+                }}
+              >
                 Vraag uw offerte aan
               </button>
             </div>

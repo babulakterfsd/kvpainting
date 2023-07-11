@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import scrollToElement from 'scroll-to-element';
 import decorationm from '../../../public/assets/images/service-decoration-m.png';
 import decoration from '../../../public/assets/images/service-decoration.png';
 import insidehomem from '../../../public/assets/images/service-insidehome-m.png';
@@ -9,6 +10,10 @@ import restorationm from '../../../public/assets/images/service-restoration-m.pn
 import restoration from '../../../public/assets/images/service-restoration.png';
 
 const Services = () => {
+  const scrollTo = (selector: any) => {
+    scrollToElement(selector, { offset: 45, ease: 'linear', duration: 500 });
+  };
+
   return (
     <section id="service" className="lg:py-28 mt-32 lg:mt-0 overflow-x-hidden">
       <h3
@@ -145,7 +150,12 @@ const Services = () => {
         data-aos-duration="1500"
         data-aos-offset="1"
       >
-        <button className="bg-[rgba(251,199,2,1)]  lg:px-10 py-4 w-[90%] sm:w-[200px] lg:w-[260px] font-semibold mt-10">
+        <button
+          className="bg-[rgba(251,199,2,1)]  lg:px-10 py-4 w-[90%] sm:w-[200px] lg:w-[260px] font-semibold mt-10"
+          onClick={() => {
+            scrollTo('#contactsection');
+          }}
+        >
           Vraag Uw Offerte Aan
         </button>
       </div>
