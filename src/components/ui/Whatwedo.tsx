@@ -45,7 +45,7 @@ const Whatwedo = () => {
                 hoogwaardige afwerking met de beste materialen, om een
                 comfortabele en aantrekkelijke ruimte te creëren.
               </p>
-              <div
+              {/* <div
                 className="w-full sm:text-center lg:text-left"
                 data-aos="fade-down"
                 data-aos-duration="1500"
@@ -53,7 +53,7 @@ const Whatwedo = () => {
                 <button className="bg-[rgba(251,199,2,1)] px-10 py-4  font-semibold mt-7 w-full sm:w-[200px] lg:w-[166px]">
                   Meer info
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
           <div
