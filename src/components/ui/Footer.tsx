@@ -194,7 +194,7 @@ const Footer = () => {
                     }}
                     className="cursor-pointer uppercase"
                   >
-                    Privacy Belied
+                    PRIVACY BELEID
                   </span>
                   {/* <span
                     style={{

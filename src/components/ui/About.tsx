@@ -62,7 +62,7 @@ const About = () => {
                 overtreffen.
               </span>
             </p>
-            <div className="w-full sm:text-center lg:text-left">
+            {/* <div className="w-full sm:text-center lg:text-left">
               <button
                 className="bg-[rgba(251,199,2,1)] px-10 py-4  text-black mt-6 lg:mt-10 font-semibold w-full sm:w-[250px] capitalize"
                 onClick={() => {
@@ -71,7 +71,7 @@ const About = () => {
               >
                 Vraag uw offerte aan
               </button>
-            </div>
+            </div> */}
           </div>
           <div className="order-first lg:order-2 overflow-hidden">
             <Image

@@ -144,7 +144,7 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div
+      {/* <div
         className="w-full text-center"
         data-aos="fade-down"
         data-aos-duration="1500"
@@ -158,7 +158,7 @@ const Services = () => {
         >
           Vraag Uw Offerte Aan
         </button>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -62,7 +62,7 @@ const Contact = () => {
             <div
               className={`${Styles.marginLeft112} w-42 mt-2.5 lg:mt-6 lg:pb-14 lg:pl-20 text-center lg:text-left`}
             >
-              <button className="bg-black px-10 py-4 text-white">
+              <button className="bg-black px-10 py-4 text-white opacity-0">
                 Start nu! (coming soon)
               </button>
             </div>
