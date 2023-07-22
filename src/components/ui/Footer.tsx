@@ -1,8 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import scrollToElement from 'scroll-to-element';
 import fb from '../../../public/assets/images/fby.png';
 import insta from '../../../public/assets/images/instay.png';
+import linkedin from '../../../public/assets/images/linkedin.png';
 import logo from '../../../public/assets/images/logo.png';
 import twitter from '../../../public/assets/images/twittery.png';
 
@@ -102,69 +104,6 @@ const Footer = () => {
                   </span>
                 </div>
               </div>
-              {/* <div className="grid-cols-1 lg:grid-cols-3 hidden sm:block">
-                <h6
-                  className="text-center mb-1 md:mb-5 text-2xl font-[700]"
-                  style={{
-                    fontFamily: 'Trade Gothic LT Std',
-                    lineHeight: '1.5rem',
-                  }}
-                >
-                  Account
-                </h6>
-                <div className="flex flex-col gap-y-1.5 md:gap-y-3 text-center text-sm">
-                  <span
-                    style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
-                      fontWeight: 300,
-                      color: 'rgba(134, 140, 152, 1)',
-                    }}
-                  >
-                    My Account
-                  </span>
-                  <span
-                    style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
-                      fontWeight: 300,
-                      color: 'rgba(134, 140, 152, 1)',
-                    }}
-                  >
-                    Wish List
-                  </span>
-                  <span
-                    style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
-                      fontWeight: 300,
-                      color: 'rgba(134, 140, 152, 1)',
-                    }}
-                  >
-                    Dashboard
-                  </span>
-                  <span
-                    style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
-                      fontWeight: 300,
-                      color: 'rgba(134, 140, 152, 1)',
-                    }}
-                  >
-                    Payment
-                  </span>
-                  <span
-                    style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
-                      fontWeight: 300,
-                      color: 'rgba(134, 140, 152, 1)',
-                    }}
-                  >
-                    Track Order
-                  </span>
-                </div>
-              </div> */}
               <div className="grid-cols-1 lg:grid-cols-3">
                 <h6
                   className="text-center mb-2 md:mb-5 text-xl lg:text-2xl font-[600] font-changa"
@@ -175,16 +114,6 @@ const Footer = () => {
                   Policies
                 </h6>
                 <div className="flex flex-col gap-y-1.5 md:gap-y-3 text-center text-sm">
-                  {/* <span
-                    style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
-                      fontWeight: 300,
-                      color: 'rgba(134, 140, 152, 1)',
-                    }}
-                  >
-                    Customer Support
-                  </span> */}
                   <span
                     style={{
                       fontFamily: 'Manrope',
@@ -196,27 +125,6 @@ const Footer = () => {
                   >
                     PRIVACY BELEID
                   </span>
-                  {/* <span
-                    style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
-                      fontWeight: 300,
-                      color: 'rgba(134, 140, 152, 1)',
-                    }}
-                  >
-                    Refund Policy
-                  </span> */}
-                  {/* <span
-                    className="lg:hidden xl:block"
-                    style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
-                      fontWeight: 300,
-                      color: 'rgba(134, 140, 152, 1)',
-                    }}
-                  >
-                    Shipping Policy
-                  </span> */}
                   <span
                     className="lg:hidden xl:block cursor-pointer"
                     style={{
@@ -240,21 +148,45 @@ const Footer = () => {
                   Social
                 </h6>
                 <div className="flex flex-col lg:flex-row gap-x-3 gap-y-1.5 md:gap-y-3 text-center text-sm">
-                  <Image
-                    src={fb}
-                    alt="fb"
-                    className="cursor-pointer hover:scale-110 duration-300 transition-all"
-                  />
-                  <Image
-                    src={twitter}
-                    alt="twitter"
-                    className="cursor-pointer  hover:scale-110 duration-300 transition-all"
-                  />
-                  <Image
-                    src={insta}
-                    alt="insta"
-                    className="cursor-pointer  hover:scale-110 duration-300 transition-all"
-                  />
+                  <Link href="https://www.facebook.com">
+                    <Image
+                      src={fb}
+                      alt="fb"
+                      className="cursor-pointer hover:scale-110 duration-300 transition-all"
+                      height={60}
+                      width={60}
+                    />
+                  </Link>
+                  {/* <Link href="https://www.twitter.com">
+                    <Image
+                      src={twitter}
+                      alt="twitter"
+                      className="cursor-pointer  hover:scale-110 duration-300 transition-all"
+                      height={60}
+                      width={60}
+                    />
+                  </Link> */}
+                  <Link
+                    href="https://be.linkedin.com/in/kieran-vonghia-307495202"
+                    target="_blank"
+                  >
+                    <Image
+                      src={linkedin}
+                      alt="linkedin"
+                      className="cursor-pointer  hover:scale-110 duration-300 transition-all"
+                      height={60}
+                      width={60}
+                    />
+                  </Link>
+                  <Link href="https://www.instagram.com">
+                    <Image
+                      src={insta}
+                      alt="insta"
+                      className="cursor-pointer  hover:scale-110 duration-300 transition-all"
+                      height={60}
+                      width={60}
+                    />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -273,6 +205,9 @@ const Footer = () => {
           <div className="socialmediaicons flex gap-x-3 pt-3 md:pb-0 order-first lg:order-9 mt-3">
             <Image src={fb} alt="insta" height={25} width={25} />
             <Image src={insta} alt="twitter" height={25} width={25} />
+            <Link href="https://be.linkedin.com/in/kieran-vonghia-307495202">
+              <Image src={linkedin} alt="linkedin" height={25} width={25} />
+            </Link>
             <Image src={twitter} alt="fb" height={25} width={25} />
           </div>
         </div>
