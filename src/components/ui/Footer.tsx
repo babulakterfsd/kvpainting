@@ -56,49 +56,41 @@ const Footer = () => {
                 <div className="flex flex-col gap-y-1.5 md:gap-y-3 text-center text-sm">
                   <span
                     style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
                       fontWeight: 300,
                       color: 'rgba(134, 140, 152, 1)',
                     }}
                     onClick={() => router.push('/')}
-                    className="cursor-pointer uppercase"
+                    className="cursor-pointer  font-manrope tracking-[.32px]"
                   >
                     Home
                   </span>
                   <span
                     style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
                       fontWeight: 300,
                       color: 'rgba(134, 140, 152, 1)',
                     }}
                     onClick={() => scrollTo('#service')}
-                    className="cursor-pointer"
+                    className="cursor-pointer  font-manrope tracking-[.32px]"
                   >
-                    ONZE DIENSTEN
+                    Onze Diensten
                   </span>
                   <span
                     style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
                       fontWeight: 300,
                       color: 'rgba(134, 140, 152, 1)',
                     }}
                     onClick={() => scrollTo('#projects')}
-                    className="cursor-pointer"
+                    className="cursor-pointer  font-manrope tracking-[.32px]"
                   >
-                    PROJECTEN
+                    Projecten
                   </span>
                   <span
                     style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
                       fontWeight: 300,
                       color: 'rgba(134, 140, 152, 1)',
                     }}
                     onClick={() => scrollTo('#contactsection')}
-                    className="cursor-pointer uppercase"
+                    className="cursor-pointer  font-manrope tracking-[.32px]"
                   >
                     Contact
                   </span>
@@ -106,7 +98,7 @@ const Footer = () => {
               </div>
               <div className="grid-cols-1 lg:grid-cols-3">
                 <h6
-                  className="text-center mb-2 md:mb-5 text-xl lg:text-2xl font-[600] font-changa"
+                  className="text-center mb-2 md:mb-5 text-xl lg:text-2xl font-[600]  font-manrope tracking-[.32px]"
                   style={{
                     lineHeight: '1.5rem',
                   }}
@@ -116,25 +108,21 @@ const Footer = () => {
                 <div className="flex flex-col gap-y-1.5 md:gap-y-3 text-center text-sm">
                   <span
                     style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
                       fontWeight: 300,
                       color: 'rgba(134, 140, 152, 1)',
                     }}
-                    className="cursor-pointer uppercase"
+                    className="cursor-pointer  font-manrope tracking-[.32px]"
                   >
-                    PRIVACY BELEID
+                    Privacy Beleid
                   </span>
                   <span
-                    className="lg:hidden xl:block cursor-pointer"
+                    className="lg:hidden xl:block cursor-pointer  font-manrope tracking-[.32px]"
                     style={{
-                      fontFamily: 'Manrope',
-                      letterSpacing: '2%',
                       fontWeight: 300,
                       color: 'rgba(134, 140, 152, 1)',
                     }}
                   >
-                    ALGEMENE VOORWAARDEN
+                    Algemene Voorwaarden
                   </span>
                 </div>
               </div>
