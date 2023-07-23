@@ -46,9 +46,9 @@ const Footer = () => {
               />
             </div>
           </div>
-          <div className="col-span-12 lg:col-span-9 md:px-8  lg:mt-6">
-            <div className="flex justify-center flex-col lg:flex-row px-3 lg:px-0 items-start gap-x-16 md:gap-x-24 gap-y-8">
-              <div className="col-span-12 lg:col-span-3 mx-auto ">
+          <div className="col-span-12 lg:col-span-9 md:px-8 lg:mt-6">
+            <div className="flex justify-center flex-col md:flex-row px-3 lg:px-0 items-start gap-x-16 md:gap-x-16 lg:gap-x-20 gap-y-8">
+              <div className="col-span-12 md:col-span-3 mx-auto ">
                 <h6
                   className="text-center mb-2 lg:mb-5 text-xl lg:text-2xl font-[600] font-changa"
                   style={{
@@ -138,7 +138,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-span-12 lg:col-span-3 mx-auto">
+              <div className="col-span-12 md:col-span-3 mx-auto">
                 <h6
                   className="text-center mb-2 lg:mb-5 text-xl lg:text-2xl font-[600] font-changa"
                   style={{
@@ -190,7 +190,7 @@ const Footer = () => {
                   </span>
                 </div>
               </div>
-              <div className="col-span-12 lg:col-span-3 mx-auto">
+              <div className="col-span-12 md:col-span-3 mx-auto">
                 <h6
                   className="text-center mb-2 md:mb-5 text-xl lg:text-2xl font-[600]  font-manrope tracking-[.32px]"
                   style={{
@@ -220,7 +220,7 @@ const Footer = () => {
                   </span>
                 </div>
               </div>
-              <div className="col-span-12 lg:col-span-3 hidden lg:block">
+              <div className="col-span-12 md:col-span-3 hidden lg:block">
                 <h6
                   className="text-center mb-2 md:mb-5 text-xl lg:text-2xl font-[600] font-changa"
                   style={{
