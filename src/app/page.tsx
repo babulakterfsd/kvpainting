@@ -38,6 +38,10 @@ export default function Home() {
       {/* <Companies /> */}
       <Projects />
       <Contact />
+      {/* scroll to bottom */}
+      {!windowHeight && (
+        <button type="button" className="scrollToDown cursor-default" />
+      )}
       {/* scroll to top */}
       {windowHeight && (
         <button

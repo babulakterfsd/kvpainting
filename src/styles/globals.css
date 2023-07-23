@@ -126,6 +126,22 @@ body {
   animation: toTop 2s linear 2s infinite backwards;
 }
 
+.scrollToDown {
+  position: fixed;
+}
+.scrollToDown::after {
+  font-family: 'font-awesome';
+  position: fixed;
+  bottom: 5px;
+  right: 15px;
+  color: #ff9a3d;
+  display: block;
+  content: '\f107';
+  font-size: 30px;
+  z-index: 999;
+  animation: toTop 2s linear 2s infinite backwards;
+}
+
 @keyframes toTop {
   0% {
     transform: translateY(-10px);
