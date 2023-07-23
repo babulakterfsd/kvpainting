@@ -7,6 +7,18 @@
   background-attachment: 'fixed';
 }
 
+@media screen and (min-width: 1280px) {
+  .bannerbg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('../../public/assets/images/webp/web_header_v2.webp');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: 'fixed';
+  min-height: 100vh;
+}
+}
+
 @media screen and (max-width: 639.5px) {
   .bannerbg {
     background-image: url('../../public/assets/images/webp/kvpainting_mobile_headerv2.webp');
