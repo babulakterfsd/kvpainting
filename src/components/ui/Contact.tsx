@@ -1,44 +1,50 @@
 'use client';
 import Image from 'next/image';
 import { useState } from 'react';
-import toast, { Toaster } from 'react-hot-toast';
+import { Toaster, toast } from 'react-hot-toast';
 import fb from '../../../public/assets/images/fbc.png';
 import lnkdin from '../../../public/assets/images/lnkdinc.png';
 import twtr from '../../../public/assets/images/twitterc.png';
 import Styles from '../../styles/contact.module.css';
 
 const Contact = () => {
-  const [name, setName] = useState('');
+  const [fname, setFName] = useState('');
+  const [lname, setLName] = useState('');
   const [email, setEmail] = useState('');
-  const [address, setAddress] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
   const [message, setMessage] = useState('');
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
     const data = {
-      name,
+      first_name: fname,
+      last_name: lname,
+      phone_number: phoneNumber,
       email,
-      address,
-      message,
+      user_message: message,
     };
 
-    await fetch('/api/sendmail', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(data),
-    })
+    await fetch(
+      'https://7hw3mpqkx1.execute-api.eu-central-1.amazonaws.com/dev/kvpainting_form',
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
-        toast.success(data.message);
-        setName('');
+        toast.success('Bedankt, we nemen snel contact met je op!');
+        setFName('');
+        setLName('');
+        setPhoneNumber('');
         setEmail('');
-        setAddress('');
         setMessage('');
       })
       .catch((err) => {
-        toast.error(err.message);
+        toast.error('Er is iets misgegaan, probeer het opnieuw');
       });
   };
 
@@ -79,12 +85,15 @@ const Contact = () => {
           >
             <div className="self-center lg:-ml-64">
               <h3
-                className="text-[28px] lg:text-4xl font-bold"
+                className="text-[28px] lg:text-4xl font-bold font-changa"
                 style={{ opacity: '.75' }}
               >
                 Get In Touch
               </h3>
-              <p className="mb-10 lg:ml-1.5" style={{ opacity: '.50' }}>
+              <p
+                className="mb-10 lg:ml-1.5 font-changa"
+                style={{ opacity: '.50' }}
+              >
                 Hoe kunnen we je helpen?
               </p>
             </div>
@@ -92,49 +101,57 @@ const Contact = () => {
               <form className="md:w-[508px] " onSubmit={handleSubmit}>
                 <input
                   type="text"
-                  name="name"
-                  placeholder="Jouw naam"
-                  className="border-none h-14 shadow-md focus:shadow-xl  focus:outline-none w-full px-5 text-[#9F9F9F] mb-8 lg:tracking-[1.135px]"
+                  name="first_name"
+                  placeholder="Voornaam*"
+                  className="border-none h-14 shadow-md focus:shadow-xl  focus:outline-none w-full px-5 text-[#606060] mb-8 lg:tracking-[.32px] font-changa text-[15px]"
                   style={{
                     borderRadius: '5px',
-                    fontFamily: 'Poppins',
                   }}
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
+                  value={fname}
+                  onChange={(e) => setFName(e.target.value)}
+                  required
+                />
+                <input
+                  type="text"
+                  name="last_name"
+                  placeholder="Achternaam*"
+                  className="border-none h-14 shadow-md focus:shadow-xl  focus:outline-none w-full px-5 text-[#606060] mb-8 lg:tracking-[.32px] font-changa text-[15px]"
+                  style={{
+                    borderRadius: '5px',
+                  }}
+                  value={lname}
+                  onChange={(e) => setLName(e.target.value)}
                   required
                 />
                 <input
                   type="email"
                   name="email"
-                  placeholder="Jouw emailadres"
-                  className="h-14 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-8 lg:tracking-[1.135px]"
+                  placeholder="Jouw emailadres*"
+                  className="h-14 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#606060] mb-8 lg:tracking-[.32px] font-changa text-[15px]"
                   style={{
                     borderRadius: '5px',
-                    fontFamily: 'Poppins',
                   }}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
                 />
-                <textarea
-                  placeholder="Jouw Adres"
-                  name="address"
-                  className="h-16 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-3 py-4 lg:tracking-[1.135px]"
+                <input
+                  type="text"
+                  name="phoneNumber"
+                  placeholder="Jouw telefoonnummer"
+                  className="h-14 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#606060] mb-8 lg:tracking-[.32px] font-changa text-[15px]"
                   style={{
                     borderRadius: '5px',
-                    fontFamily: 'Poppins',
                   }}
-                  value={address}
-                  onChange={(e) => setAddress(e.target.value)}
-                  required
+                  value={phoneNumber}
+                  onChange={(e) => setPhoneNumber(e.target.value)}
                 />
                 <textarea
-                  placeholder="Jouw vraag, bericht, opmerking"
+                  placeholder="Jouw vraag, bericht, opmerking*"
                   name="message"
-                  className="h-44 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#9F9F9F] mb-3 py-4 lg:tracking-[1.135px]"
+                  className="h-44 shadow-md focus:shadow-xl border-none focus:outline-none w-full px-5 text-[#525151] mb-3 py-4 lg:tracking-[.32px] font-changa text-[15px]"
                   style={{
                     borderRadius: '5px',
-                    fontFamily: 'Poppins',
                   }}
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
@@ -165,7 +182,10 @@ const Contact = () => {
                   className="h-4 w-4 hover:rotate-45 hover:transition-all duration-100"
                 />
               </a>
-              <a href="#" target="_blank">
+              <a
+                href="https://be.linkedin.com/in/kieran-vonghia-307495202"
+                target="_blank"
+              >
                 <Image
                   src={lnkdin}
                   alt="linkedin"
