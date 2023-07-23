@@ -235,8 +235,8 @@ const Footer = () => {
                       src={fb}
                       alt="fb"
                       className="cursor-pointer hover:scale-110 duration-300 transition-all"
-                      height={60}
-                      width={60}
+                      height={40}
+                      width={40}
                     />
                   </Link>
                   {/* <Link href="https://www.twitter.com">
@@ -244,8 +244,8 @@ const Footer = () => {
                       src={twitter}
                       alt="twitter"
                       className="cursor-pointer  hover:scale-110 duration-300 transition-all"
-                      height={60}
-                      width={60}
+                      height={40}
+                      width={40}
                     />
                   </Link> */}
                   <Link
@@ -256,8 +256,8 @@ const Footer = () => {
                       src={linkedin}
                       alt="linkedin"
                       className="cursor-pointer  hover:scale-110 duration-300 transition-all"
-                      height={60}
-                      width={60}
+                      height={40}
+                      width={40}
                     />
                   </Link>
                   <Link href="https://www.instagram.com">
@@ -265,8 +265,8 @@ const Footer = () => {
                       src={insta}
                       alt="insta"
                       className="cursor-pointer  hover:scale-110 duration-300 transition-all"
-                      height={60}
-                      width={60}
+                      height={40}
+                      width={40}
                     />
                   </Link>
                 </div>
