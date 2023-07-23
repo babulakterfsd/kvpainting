@@ -155,20 +155,6 @@ function Nav() {
                     HOME
                   </a>
                 </li>
-                {/* services */}
-                <li onClick={() => scrollTo('#service')}>
-                  <a
-                    href="#service"
-                    className={`${Styles.hanimation} block py-2 text-sm font-[400]`}
-                    style={{
-                      fontFamily: 'plus_jakarta_sansregular',
-                      letterSpacing: '.1em',
-                      lineHeight: '22px',
-                    }}
-                  >
-                    ONZE DIENSTEN
-                  </a>
-                </li>
                 {/* what we do  */}
                 <li onClick={() => scrollTo('#whatwedosection')}>
                   <a
@@ -181,6 +167,20 @@ function Nav() {
                     }}
                   >
                     OVER ONS
+                  </a>
+                </li>
+                {/* services */}
+                <li onClick={() => scrollTo('#service')}>
+                  <a
+                    href="#service"
+                    className={`${Styles.hanimation} block py-2 text-sm font-[400]`}
+                    style={{
+                      fontFamily: 'plus_jakarta_sansregular',
+                      letterSpacing: '.1em',
+                      lineHeight: '22px',
+                    }}
+                  >
+                    ONZE DIENSTEN
                   </a>
                 </li>
                 {/* companies */}
@@ -258,26 +258,6 @@ function Nav() {
                 HOME
               </a>
             </li>
-            {/* services */}
-            <li
-              onClick={() => {
-                scrollTo('#service');
-                setIsOpen(false);
-              }}
-            >
-              <a
-                href="#service"
-                className="block py-2 text-sm font-[400]"
-                aria-current="page"
-                style={{
-                  fontFamily: 'plus_jakarta_sansregular',
-                  letterSpacing: '.1em',
-                  lineHeight: '22px',
-                }}
-              >
-                ONZE DIENSTEN
-              </a>
-            </li>
             {/* what we do  */}
             <li
               onClick={() => {
@@ -296,6 +276,26 @@ function Nav() {
                 }}
               >
                 OVER ONS
+              </a>
+            </li>
+            {/* services */}
+            <li
+              onClick={() => {
+                scrollTo('#service');
+                setIsOpen(false);
+              }}
+            >
+              <a
+                href="#service"
+                className="block py-2 text-sm font-[400]"
+                aria-current="page"
+                style={{
+                  fontFamily: 'plus_jakarta_sansregular',
+                  letterSpacing: '.1em',
+                  lineHeight: '22px',
+                }}
+              >
+                ONZE DIENSTEN
               </a>
             </li>
             {/* companies */}
