@@ -19,7 +19,7 @@ const Banner = () => {
             data-aos-duration="1500"
           >
             <h1
-              className="text-[28px] md:text-[1.9rem] h-[90px] sm:h-[150px] lg:h-auto lg:text-[40px] text-white lg:leading-[36px]  text-center leading-[28px]  font-changa tracking-[1.4px] lg:translate-[2.8px] lg:text-left lg:font-[600] lg:mb-2 lg:whitespace-nowrap"
+              className="text-[28px] md:text-[1.9rem] h-[90px] sm:h-[150px] lg:h-auto lg:text-[40px] text-white lg:leading-[36px]  text-center leading-[28px]  font-changa tracking-[1.4px] lg:translate-[2.8px] lg:text-left lg:font-[600] lg:mb-3 lg:whitespace-nowrap"
               data-aos="fade-down"
               data-aos-duration="1500"
             >
@@ -57,10 +57,11 @@ const Banner = () => {
               </span>{' '}
             </h1>
             <p
-              className="font-[500] text-[1rem] lg-[.7rem] lg:text-[1rem] text-white lg:pb-4 text-center lg:text-left"
+              className="font-[500] text-[1rem] lg-text-[.7rem] lg:text-[1rem] text-white lg:pb-4 text-center lg:text-left"
               style={{
                 fontFamily: 'plus_jakarta_sansregular',
                 letterSpacing: '.02rem',
+                lineHeight: '18px',
               }}
               data-aos="fade-down"
               data-aos-duration="2000"
