@@ -58,7 +58,7 @@ const Contact = () => {
         >
           <div className="textcontainer flex flex-col lg:justify-start lg:items-start">
             <h2
-              className={`${Styles.marginLeft112} text-3xl text-center lg:text-left lg:text-5xl  text-uppercase font-[700] lg:font-semibold lg:pt-14 lg:pl-20 leading-[38px] lg:leading[61px] font-changa`}
+              className={` text-3xl text-center lg:text-left lg:text-5xl  text-uppercase font-[700] lg:font-semibold lg:pt-14 lg:pl-20 leading-[38px] lg:leading[61px] font-changa`}
               style={{
                 letterSpacing: '1.4px',
               }}
@@ -66,9 +66,9 @@ const Contact = () => {
               Klaar Om <br /> Je Droomhuis <br /> Kleurrijk Te Maken?
             </h2>
             <div
-              className={`${Styles.marginLeft112} w-42 mt-2.5 lg:mt-6 lg:pb-14 lg:pl-20 text-center lg:text-left`}
+              className={` w-42 mt-2.5 lg:mt-6 lg:pb-14 lg:pl-20 text-center lg:text-left`}
             >
-              <button className="bg-black px-10 py-4 text-white opacity-0">
+              <button className="bg-black px-10 py-4 text-white hidden">
                 Start nu! (coming soon)
               </button>
             </div>
