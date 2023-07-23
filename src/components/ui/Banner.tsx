@@ -85,51 +85,6 @@ const Banner = () => {
                 Vraag uw offerte aan
               </button>
             </div>
-
-            {/* <div
-              className="mt-9 lg:mt-32 flex gap-x-4 lg:gap-x-11 justify-center lg:justify-normal"
-              data-aos="fade-down"
-              data-aos-duration="2500"
-            >
-              <div className="h-32 w-52 p-4 bg-[#353535] border-gray-400 rounded-md flex justify-center flex-col gap-y-3">
-                <h2
-                  className="text-5xl text-[#FBC702] font-[500]"
-                  style={{
-                    fontFamily: 'druk_wide_webmedium',
-                  }}
-                >
-                  8
-                </h2>
-                <h4
-                  className="text-base font-[500] text-white"
-                  style={{
-                    fontFamily: 'plus_jakarta_sansregular',
-                    letterSpacing: '.02em',
-                    lineHeight: '20.92px',
-                  }}
-                >
-                  Years of Experience
-                </h4>
-              </div>
-              <div className="h-32 w-52 p-4 bg-[#353535] border-gray-400 rounded-md flex justify-center flex-col gap-y-3">
-                <h2
-                  className="text-5xl text-[#FBC702] font-[500]"
-                  style={{ fontFamily: 'druk_wide_webmedium' }}
-                >
-                  140
-                </h2>
-                <h4
-                  className="text-base font-[500] text-white"
-                  style={{
-                    fontFamily: 'plus_jakarta_sansregular',
-                    letterSpacing: '.02em',
-                    lineHeight: '20.92px',
-                  }}
-                >
-                  Projects Completed
-                </h4>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
