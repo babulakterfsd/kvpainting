@@ -19,12 +19,12 @@ const Banner = () => {
             data-aos-duration="1500"
           >
             <h1
-              className="text-[2rem] md:text-[1.9rem]  lg:text-[56px] text-white leading-[36px] lg:leading-[120%] font-semibold h-[90px] sm:h-[150px]  text-center  font-changa tracking-[.5px] lg:translate-[2.8px] lg:text-left"
+              className="text-[28px] md:text-[1.9rem] h-[90px] sm:h-[150px] lg:h-auto lg:text-[40px] text-white lg:leading-[36px]  text-center leading-[28px]  font-changa tracking-[1.4px] lg:translate-[2.8px] lg:text-left lg:font-[600] lg:mb-2 lg:whitespace-nowrap"
               data-aos="fade-down"
               data-aos-duration="1500"
             >
               <span
-                className={`text-white font-semibold capitalize text-center lg:text-left`}
+                className={`text-white capitalize text-center lg:text-left`}
               >
                 Wij
                 <span
